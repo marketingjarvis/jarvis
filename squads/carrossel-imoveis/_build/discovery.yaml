@@ -1,0 +1,31 @@
+squad_code: "carrossel-imoveis"
+purpose: "Gerar carrosséis virais para Instagram pesquisando tendências do mercado imobiliário, criando copy profunda com checkpoint de aprovação do usuário antes de gerar os slides HTML, e salvando os arquivos na pasta de output."
+domain: "content"
+
+company:
+  name: "Jarvis Inteligência Imobiliária"
+  tone: "Profissional e consultivo, orientado a resultados e inteligência de mercado"
+  products: "Compra e venda de imóveis, locação, consultoria imobiliária em Maceió/AL"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Compradores e investidores imobiliários em Maceió, Alagoas"
+  platforms: "Instagram (carrossel 1080×1350px)"
+  tone: "Jornalístico + Educativo (alternando por tema)"
+
+tools_needed:
+  - web_search
+  - web_fetch
+  - carrossel-infinito
+  - image-creator
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/mundodatastore/"
+      platform: "instagram"
+      investigation_mode: "profile_1"
+
+target_formats:
+  - "instagram-feed"

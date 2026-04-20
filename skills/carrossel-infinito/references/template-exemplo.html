@@ -1,0 +1,570 @@
+<!--
+  TEMPLATE DE REFERÊNCIA — Carrossel Infinito
+
+  Este é um exemplo completo de como o HTML deve ser gerado.
+  Todas as variáveis entre [COLCHETES] devem ser substituídas
+  pelos dados da marca do usuário.
+
+  Exemplo usando uma marca fictícia "Studio Lab" do nicho de marketing digital.
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[MARCA] — [Tema do Carrossel] ([DD/MM/AAAA])</title>
+<style>
+  /* ===== IMPORTAR FONTE DA MARCA ===== */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+  /* ===== VARIÁVEIS DA MARCA (trocar pelos valores do briefing) ===== */
+  :root {
+    --primary: #0F0F0F;
+    --accent: #6C63FF;
+    --light-bg: #F7F7F7;
+    --dark-bg: #1A1A2E;
+    --text-light: #FFFFFF;
+    --text-dark: #1a1a1a;
+    --text-secondary: #4A5568;
+  }
+
+  /* ===== RESET ===== */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a10;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+  }
+
+  .page-header {
+    color: #555;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+  .page-header span { color: var(--accent); }
+
+  .slides-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    max-width: 1400px;
+  }
+
+  /* ===== SLIDE BASE (1080x1350 com preview em 30%) ===== */
+  .s {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    transform: scale(0.30);
+    transform-origin: top left;
+    margin-bottom: -945px;
+    margin-right: -756px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* ===== ACCENT LINE (topo de cada slide) ===== */
+  .accent-top-line {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: var(--accent);
+    z-index: 25;
+  }
+
+  /* ===== HEADER BAR ===== */
+  .brand-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    padding: 24px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .brand-bar.on-dark { color: var(--accent); opacity: 0.6; }
+  .brand-bar.on-light { color: var(--primary); opacity: 0.35; }
+
+  /* ===== HANDLE ===== */
+  .handle-bottom {
+    position: absolute;
+    bottom: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 10;
+  }
+  .handle-bottom.left { left: 45px; }
+  .handle-bottom.center { left: 50%; transform: translateX(-50%); }
+  .handle-bottom.on-dark { color: var(--accent); opacity: 0.6; }
+  .handle-bottom.on-light { color: var(--primary); opacity: 0.3; }
+
+  /* ===== DOTS ===== */
+  .dots {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 7px;
+    z-index: 20;
+  }
+  .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+  .dot.inactive-light { background: rgba(0,0,0,0.15); }
+  .dot.inactive-dark { background: rgba(255,255,255,0.15); }
+  .dot.active { background: var(--accent); }
+
+  /* ===== SLIDE CAPA ===== */
+  .s-cover {
+    background: var(--dark-bg);
+  }
+  .s-cover .cover-photo {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 55%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  .s-cover .cover-photo::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 70%;
+    background: linear-gradient(to top, var(--dark-bg) 5%, rgba(26,26,46,0.85) 40%, transparent 100%);
+  }
+  .s-cover .badge {
+    position: absolute;
+    top: 72px; left: 45px;
+    display: flex; align-items: center; gap: 12px;
+    z-index: 15;
+  }
+  .s-cover .badge .label {
+    background: var(--accent);
+    color: var(--dark-bg);
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+  .s-cover .badge .date {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .s-cover .headline-wrap {
+    position: absolute;
+    bottom: 70px; left: 45px; right: 45px;
+    z-index: 10;
+  }
+  .s-cover .handle-badge {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 20px;
+  }
+  .s-cover .handle-badge .icon {
+    width: 38px; height: 38px;
+    background: var(--accent);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; color: var(--dark-bg); font-weight: 800;
+  }
+  .s-cover .handle-badge .name {
+    font-size: 18px; font-weight: 700; color: var(--text-light);
+  }
+  .s-cover .mega {
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--text-light);
+    line-height: 1.05;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+  .s-cover .mega .acc { color: var(--accent); }
+  .s-cover .sub-line {
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.5);
+  }
+  .s-cover .sub-line .arr { color: var(--accent); font-weight: 700; }
+
+  /* ===== SLIDE ESCURO ===== */
+  .s-dark {
+    background: var(--dark-bg);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 45px 65px;
+  }
+  .s-dark .title {
+    font-size: 54px; font-weight: 800;
+    color: var(--text-light); line-height: 1.15;
+    margin-bottom: 28px;
+  }
+  .s-dark .title .acc { color: var(--accent); }
+  .s-dark .img-frame {
+    width: 100%; height: 360px;
+    border-radius: 14px; overflow: hidden;
+    margin-bottom: 28px; flex-shrink: 0;
+    border: 2px solid rgba(108,99,255,0.15);
+  }
+  .s-dark .img-frame img { width: 100%; height: 100%; object-fit: cover; }
+  .s-dark .body {
+    font-size: 30px; font-weight: 400;
+    color: rgba(255,255,255,0.7); line-height: 1.65;
+    flex: 1;
+  }
+  .s-dark .body strong { color: var(--text-light); font-weight: 700; }
+  .s-dark .body .acc { color: var(--accent); font-weight: 700; }
+  .s-dark .arrow-item {
+    font-size: 29px; font-weight: 500;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.5; margin-bottom: 14px;
+    padding-left: 32px; position: relative;
+  }
+  .s-dark .arrow-item::before {
+    content: '→'; position: absolute; left: 0;
+    color: var(--accent); font-weight: 800;
+  }
+  .s-dark .bold-end {
+    font-size: 30px; font-weight: 700;
+    color: var(--text-light); line-height: 1.4;
+    margin-top: 18px;
+  }
+  .s-dark .bold-end .acc { color: var(--accent); }
+  .s-dark .accent-line { width: 60px; height: 4px; background: var(--accent); margin: 20px 0; }
+
+  /* ===== SLIDE CLARO ===== */
+  .s-light {
+    background: var(--light-bg);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 45px 65px;
+  }
+  .s-light .section-badge {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--accent);
+    padding: 9px 22px; border-radius: 4px;
+    font-size: 12px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    margin-bottom: 28px; align-self: flex-start;
+  }
+  .s-light .title {
+    font-size: 52px; font-weight: 800;
+    color: var(--primary); line-height: 1.15;
+    margin-bottom: 28px;
+  }
+  .s-light .title .acc { color: var(--accent); }
+  .s-light .img-frame {
+    width: 100%; height: 340px;
+    border-radius: 14px; overflow: hidden;
+    margin-bottom: 28px; flex-shrink: 0;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+  }
+  .s-light .img-frame img { width: 100%; height: 100%; object-fit: cover; }
+  .s-light .body {
+    font-size: 30px; font-weight: 400;
+    color: var(--text-secondary); line-height: 1.65;
+    flex: 1;
+  }
+  .s-light .body strong { color: var(--primary); font-weight: 700; }
+  .s-light .body .acc { color: var(--accent); font-weight: 700; }
+  .s-light .arrow-item {
+    font-size: 29px; font-weight: 500;
+    color: var(--text-secondary);
+    line-height: 1.5; margin-bottom: 14px;
+    padding-left: 32px; position: relative;
+  }
+  .s-light .arrow-item::before {
+    content: '→'; position: absolute; left: 0;
+    color: var(--accent); font-weight: 800;
+  }
+  .s-light .highlight-card {
+    background: #FFFFFF;
+    border-left: 5px solid var(--accent);
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px; margin-top: 18px;
+  }
+  .s-light .highlight-card p {
+    font-size: 26px; font-weight: 600;
+    color: var(--primary); line-height: 1.5;
+  }
+
+  /* ===== DATA TABLE ===== */
+  .data-table {
+    width: 100%; border-collapse: collapse; margin: 15px 0;
+  }
+  .data-table th {
+    background: var(--primary); color: var(--accent);
+    padding: 14px 18px; font-size: 17px; font-weight: 700;
+    text-align: left; letter-spacing: 1px; text-transform: uppercase;
+  }
+  .data-table td {
+    padding: 16px 18px; font-size: 22px; font-weight: 500;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  /* ===== SLIDE CTA ===== */
+  .s-cta {
+    background: var(--dark-bg);
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    text-align: center; padding: 80px 50px 65px;
+    position: relative;
+  }
+  .s-cta::before {
+    content: '';
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(108,99,255,0.05) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .s-cta .brand-big {
+    font-size: 34px; font-weight: 800;
+    color: var(--accent); letter-spacing: 10px;
+    text-transform: uppercase; margin-bottom: 40px;
+    position: relative; z-index: 2;
+  }
+  .s-cta .cta-headline {
+    font-size: 52px; font-weight: 800;
+    color: var(--text-light); line-height: 1.2;
+    margin-bottom: 25px; position: relative;
+    z-index: 2; max-width: 850px;
+  }
+  .s-cta .cta-headline .acc { color: var(--accent); }
+  .s-cta .cta-body {
+    font-size: 26px; font-weight: 400;
+    color: rgba(255,255,255,0.5); line-height: 1.6;
+    max-width: 750px; margin-bottom: 35px;
+    position: relative; z-index: 2;
+  }
+  .s-cta .cta-img {
+    width: 90%; height: 300px;
+    border-radius: 14px; overflow: hidden;
+    margin-bottom: 30px; position: relative;
+    z-index: 2; border: 2px solid rgba(108,99,255,0.15);
+  }
+  .s-cta .cta-img img { width: 100%; height: 100%; object-fit: cover; }
+  .s-cta .keyword-box {
+    border: 2.5px solid rgba(108,99,255,0.4);
+    border-radius: 60px; padding: 22px 48px;
+    text-align: center; position: relative; z-index: 2;
+  }
+  .s-cta .keyword-box p {
+    font-size: 26px; font-weight: 600;
+    color: rgba(255,255,255,0.75);
+  }
+  .s-cta .keyword-box .kw {
+    font-weight: 900; color: var(--accent);
+  }
+  .s-cta .small-note {
+    font-size: 14px; color: rgba(255,255,255,0.25);
+    margin-top: 12px; text-transform: uppercase;
+    letter-spacing: 2px; position: relative; z-index: 2;
+  }
+
+  /* ===== LEGENDA ===== */
+  .caption-wrap {
+    max-width: 650px; margin-top: 50px;
+    background: #0f0f14;
+    border: 1px solid rgba(108,99,255,0.1);
+    border-radius: 14px; padding: 32px 36px;
+  }
+  .caption-wrap h2 {
+    color: var(--accent); font-size: 13px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .caption-wrap pre {
+    color: #aaa; font-size: 12.5px; line-height: 1.8;
+    white-space: pre-wrap; font-family: 'Poppins', sans-serif;
+  }
+
+  @media (max-width: 900px) {
+    .s {
+      transform: scale(0.22);
+      margin-bottom: -1053px;
+      margin-right: -842px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <span>[MARCA]</span> — Carrossel [DD/MM/AAAA] — 7 slides
+</div>
+
+<div class="slides-wrap">
+
+<!-- ═══════════════════════════════════════
+     SLIDE 1 / 7 — CAPA
+     ═══════════════════════════════════════ -->
+<div class="s s-cover">
+  <div class="accent-top-line"></div>
+  <div class="brand-bar on-dark">
+    <span>Powered by [MARCA]</span>
+    <span>@[handle]</span>
+    <span>[Mês Ano] ®</span>
+  </div>
+  <div class="cover-photo" style="background-image: url('https://images.unsplash.com/photo-[ID]?w=1080&q=85&auto=format');"></div>
+  <div class="badge">
+    <span class="label">[BADGE — ex: TENDÊNCIA, ANÁLISE, BREAKING]</span>
+    <span class="date">[DD/MM/AAAA]</span>
+  </div>
+  <div class="headline-wrap">
+    <div class="handle-badge">
+      <div class="icon">✦</div>
+      <div class="name">@[handle] ✓</div>
+    </div>
+    <div class="mega">[HEADLINE <span class="acc">COM PALAVRAS ACCENT</span>]</div>
+    <div class="sub-line"><span class="arr">→</span> [Subtítulo contextual]</div>
+  </div>
+  <div class="dots">
+    <div class="dot active"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     SLIDE 2 / 7 — ESCURO (contexto + dados)
+     ═══════════════════════════════════════ -->
+<div class="s s-dark">
+  <div class="accent-top-line"></div>
+  <div class="brand-bar on-dark">
+    <span>Powered by [MARCA]</span>
+    <span>@[handle]</span>
+    <span>[Mês Ano] ®</span>
+  </div>
+  <div class="title">[Título com <span class="acc">palavra accent</span>]</div>
+  <div class="img-frame">
+    <img src="https://images.unsplash.com/photo-[ID]?w=1080&q=85&auto=format" alt="">
+  </div>
+  <div class="body">
+    [Texto do corpo com <span class="acc">palavras accent</span> integradas naturalmente. Dados com fonte: <strong>"73% dos profissionais..."</strong> (Fonte: Nome, Ano).]
+  </div>
+  <div class="accent-line"></div>
+  <div class="bold-end">[Statement final <span class="acc">com accent</span>.]</div>
+  <div class="handle-bottom left on-dark">@[handle]</div>
+  <div class="dots">
+    <div class="dot inactive-dark"></div>
+    <div class="dot active"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     SLIDE 3 / 7 — CLARO (aprofundamento)
+     ═══════════════════════════════════════ -->
+<div class="s s-light">
+  <div class="accent-top-line"></div>
+  <div class="brand-bar on-light">
+    <span>Powered by [MARCA]</span>
+    <span>@[handle]</span>
+    <span>[Mês Ano] ®</span>
+  </div>
+  <div class="section-badge">[SEÇÃO — ex: ANÁLISE, DADOS, CONTEXTO]</div>
+  <div class="title">[Título com <span class="acc">accent</span>]</div>
+  <div class="img-frame">
+    <img src="https://images.unsplash.com/photo-[ID]?w=1080&q=85&auto=format" alt="">
+  </div>
+  <div class="arrow-item"><strong>[Ponto 1]</strong> — [explicação]</div>
+  <div class="arrow-item"><strong>[Ponto 2]</strong> — [explicação]</div>
+  <div class="arrow-item"><strong>[Ponto 3]</strong> — [explicação]</div>
+  <div class="handle-bottom left on-light">@[handle]</div>
+  <div class="dots">
+    <div class="dot inactive-light"></div>
+    <div class="dot inactive-light"></div>
+    <div class="dot active"></div>
+    <div class="dot inactive-light"></div>
+    <div class="dot inactive-light"></div>
+    <div class="dot inactive-light"></div>
+    <div class="dot inactive-light"></div>
+  </div>
+</div>
+
+<!-- Slides 4-6 seguem o mesmo padrão alternando escuro/claro -->
+<!-- Slide 4: s-dark | Slide 5: s-light | Slide 6: s-dark -->
+
+<!-- ═══════════════════════════════════════
+     SLIDE 7 / 7 — CTA COM KEYWORD
+     ═══════════════════════════════════════ -->
+<div class="s s-cta">
+  <div class="accent-top-line"></div>
+  <div class="brand-bar on-dark">
+    <span>Powered by [MARCA]</span>
+    <span>@[handle]</span>
+    <span>[Mês Ano] ®</span>
+  </div>
+  <div class="brand-big">[MARCA]</div>
+  <div class="cta-headline">[Pergunta provocativa <span class="acc">com accent</span>?]</div>
+  <div class="cta-body">[Texto de suporte — 1-2 frases que reforçam a urgência]</div>
+  <div class="cta-img">
+    <img src="https://images.unsplash.com/photo-[ID]?w=1080&q=85&auto=format" alt="">
+  </div>
+  <div class="keyword-box">
+    <p>Comenta "<span class="kw">[KEYWORD]</span>" e receba [BENEFÍCIO] na sua DM.</p>
+  </div>
+  <div class="small-note">(Acesso gratuito por tempo limitado)</div>
+  <div class="handle-bottom center on-dark">@[handle]</div>
+  <div class="dots">
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot inactive-dark"></div>
+    <div class="dot active"></div>
+  </div>
+</div>
+
+</div><!-- /slides-wrap -->
+
+<!-- ===== LEGENDA INSTAGRAM ===== -->
+<div class="caption-wrap">
+  <h2>📋 Legenda Instagram — Copie e Cole</h2>
+  <pre>[GANCHO — primeira frase impactante, máx 125 caracteres]
+
+[2-3 frases de contexto sobre o tema]
+
+[2-3 frases de análise/interpretação profunda]
+
+Fontes: [Nome Fonte 1], [Nome Fonte 2]
+
+💬 Comenta "[KEYWORD]" e recebe [benefício] direto na DM.
+
+Conteúdo produzido com IA por [MARCA]
+
+#hashtag1 #hashtag2 #hashtag3 #hashtag4 #hashtag5</pre>
+</div>
+
+</body>
+</html>

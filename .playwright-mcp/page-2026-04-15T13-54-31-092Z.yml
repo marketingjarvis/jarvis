@@ -1,0 +1,408 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDWkGZu0ATiq%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - img [ref=e89]
+              - listitem [ref=e91]:
+                - img [ref=e98]
+            - button [ref=e100] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - button "Foto do perfil de xpinvestimentos" [disabled] [ref=e107]:
+              - link "Foto do perfil de xpinvestimentos" [disabled] [ref=e109] [cursor=pointer]:
+                - img "Foto do perfil de xpinvestimentos" [ref=e110]
+            - generic [ref=e113]:
+              - generic [ref=e115]:
+                - link "xpinvestimentos" [ref=e117] [cursor=pointer]:
+                  - /url: /xpinvestimentos/
+                  - generic [ref=e120]: xpinvestimentos
+                - img "Verificado" [ref=e122]
+              - generic [ref=e124]:
+                - generic [ref=e126]: •
+                - button "Seguir" [ref=e127] [cursor=pointer]
+            - button "Mais opções" [ref=e130] [cursor=pointer]:
+              - img "Mais opções" [ref=e133]
+          - separator [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - link "Foto do perfil de xpinvestimentos" [ref=e143] [cursor=pointer]:
+                - /url: /xpinvestimentos/
+                - img "Foto do perfil de xpinvestimentos" [ref=e144]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - link "xpinvestimentos Verificado" [ref=e150] [cursor=pointer]:
+                    - /url: /xpinvestimentos/
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: xpinvestimentos
+                      - img "Verificado" [ref=e155]
+                  - time [ref=e158]: 2 sem
+                - generic [ref=e159]:
+                  - text: A Consultoria pode ser a melhor escolha para você?
+                  - text: Veja as vantagens deste modelo de atendimento.
+                  - text: Se já é cliente, fale com seu consultor.
+                  - text: Se não, venha ter uma visão completa do seu patrimônio com a XP.
+            - button "Carregar mais comentários" [ref=e161] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e163]
+            - generic [ref=e165]:
+              - generic [ref=e168]:
+                - link "Foto do perfil de pedropaulode408" [ref=e171] [cursor=pointer]:
+                  - /url: /pedropaulode408/
+                  - img "Foto do perfil de pedropaulode408" [ref=e172]
+                - generic [ref=e174]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]:
+                      - link "pedropaulode408" [ref=e179] [cursor=pointer]:
+                        - /url: /pedropaulode408/
+                        - generic [ref=e182]: pedropaulode408
+                      - link "20 h" [ref=e184] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/18419366599193797/
+                        - time [ref=e185]: 20 h
+                    - generic [ref=e187]: Sim amor
+                  - generic [ref=e188]:
+                    - button "Curtir" [ref=e189] [cursor=pointer]:
+                      - generic [ref=e190]: Curtir
+                    - button "Responder" [ref=e191] [cursor=pointer]:
+                      - generic [ref=e193]: Responder
+              - generic [ref=e196]:
+                - link "Foto do perfil de manage.your.villa.bali" [ref=e199] [cursor=pointer]:
+                  - /url: /manage.your.villa.bali/
+                  - img "Foto do perfil de manage.your.villa.bali" [ref=e200]
+                - generic [ref=e202]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]:
+                      - link "manage.your.villa.bali" [ref=e207] [cursor=pointer]:
+                        - /url: /manage.your.villa.bali/
+                        - generic [ref=e210]: manage.your.villa.bali
+                      - link "1 sem" [ref=e212] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/18110229055832562/
+                        - time [ref=e213]: 1 sem
+                    - generic [ref=e215]: ❤️
+                  - generic [ref=e216]:
+                    - button "Curtir" [ref=e217] [cursor=pointer]:
+                      - generic [ref=e218]: Curtir
+                    - button "Responder" [ref=e219] [cursor=pointer]:
+                      - generic [ref=e221]: Responder
+              - generic [ref=e224]:
+                - link "Foto do perfil de patycuter" [ref=e227] [cursor=pointer]:
+                  - /url: /patycuter/
+                  - img "Foto do perfil de patycuter" [ref=e228]
+                - generic [ref=e230]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]:
+                      - link "patycuter" [ref=e235] [cursor=pointer]:
+                        - /url: /patycuter/
+                        - generic [ref=e238]: patycuter
+                      - link "1 sem" [ref=e240] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/17879825124541339/
+                        - time [ref=e241]: 1 sem
+                    - generic [ref=e243]: O fechamento do cartão que seria ontem ainda não aconteceu, o banco está com problemas com datas?
+                  - generic [ref=e244]:
+                    - button "Curtir" [ref=e245] [cursor=pointer]:
+                      - generic [ref=e246]: Curtir
+                    - button "Responder" [ref=e247] [cursor=pointer]:
+                      - generic [ref=e249]: Responder
+              - generic [ref=e252]:
+                - link "Foto do perfil de ultimosantana" [ref=e255] [cursor=pointer]:
+                  - /url: /ultimosantana/
+                  - img "Foto do perfil de ultimosantana" [ref=e256]
+                - generic [ref=e258]:
+                  - generic [ref=e260]:
+                    - generic [ref=e261]:
+                      - link "ultimosantana" [ref=e263] [cursor=pointer]:
+                        - /url: /ultimosantana/
+                        - generic [ref=e266]: ultimosantana
+                      - link "1 sem" [ref=e268] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/17854195215638143/
+                        - time [ref=e269]: 1 sem
+                    - generic [ref=e271]: 🙌
+                  - generic [ref=e272]:
+                    - button "1 curtida" [ref=e273] [cursor=pointer]:
+                      - generic [ref=e275]: 1 curtida
+                    - button "Responder" [ref=e276] [cursor=pointer]:
+                      - generic [ref=e278]: Responder
+              - generic [ref=e281]:
+                - link "Foto do perfil de eduugomees.go" [ref=e284] [cursor=pointer]:
+                  - /url: /eduugomees.go/
+                  - img "Foto do perfil de eduugomees.go" [ref=e285]
+                - generic [ref=e287]:
+                  - generic [ref=e289]:
+                    - generic [ref=e290]:
+                      - link "eduugomees.go" [ref=e292] [cursor=pointer]:
+                        - /url: /eduugomees.go/
+                        - generic [ref=e295]: eduugomees.go
+                      - link "1 sem" [ref=e297] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/18014559338832341/
+                        - time [ref=e298]: 1 sem
+                    - generic [ref=e300]: Alguém sabe o que tá acontecendo com o APP da XP? Tá td bugado já tem um mês
+                  - generic [ref=e301]:
+                    - button "1 curtida" [ref=e302] [cursor=pointer]:
+                      - generic [ref=e304]: 1 curtida
+                    - button "Responder" [ref=e305] [cursor=pointer]:
+                      - generic [ref=e307]: Responder
+              - generic [ref=e310]:
+                - link "Foto do perfil de lucasmlinhares" [ref=e313] [cursor=pointer]:
+                  - /url: /lucasmlinhares/
+                  - img "Foto do perfil de lucasmlinhares" [ref=e314]
+                - generic [ref=e316]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - link "lucasmlinhares" [ref=e321] [cursor=pointer]:
+                        - /url: /lucasmlinhares/
+                        - generic [ref=e324]: lucasmlinhares
+                      - link "2 sem" [ref=e326] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/17958352550933910/
+                        - time [ref=e327]: 2 sem
+                    - generic [ref=e329]: 👏👏
+                  - generic [ref=e330]:
+                    - button "2 curtidas" [ref=e331] [cursor=pointer]:
+                      - generic [ref=e333]: 2 curtidas
+                    - button "Responder" [ref=e334] [cursor=pointer]:
+                      - generic [ref=e336]: Responder
+              - generic [ref=e339]:
+                - link "Foto do perfil de felipetonini.aai" [ref=e342] [cursor=pointer]:
+                  - /url: /felipetonini.aai/
+                  - img "Foto do perfil de felipetonini.aai" [ref=e343]
+                - generic [ref=e345]:
+                  - generic [ref=e347]:
+                    - generic [ref=e348]:
+                      - link "felipetonini.aai" [ref=e350] [cursor=pointer]:
+                        - /url: /felipetonini.aai/
+                        - generic [ref=e353]: felipetonini.aai
+                      - link "2 sem" [ref=e355] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/17884296891473624/
+                        - time [ref=e356]: 2 sem
+                    - generic [ref=e358]: 🚀🇧🇷👏
+                  - generic [ref=e359]:
+                    - button "1 curtida" [ref=e360] [cursor=pointer]:
+                      - generic [ref=e362]: 1 curtida
+                    - button "Responder" [ref=e363] [cursor=pointer]:
+                      - generic [ref=e365]: Responder
+              - generic [ref=e368]:
+                - link "Foto do perfil de claudia.froldi1" [ref=e371] [cursor=pointer]:
+                  - /url: /claudia.froldi1/
+                  - img "Foto do perfil de claudia.froldi1" [ref=e372]
+                - generic [ref=e374]:
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - link "claudia.froldi1" [ref=e379] [cursor=pointer]:
+                        - /url: /claudia.froldi1/
+                        - generic [ref=e382]: claudia.froldi1
+                      - link "2 sem" [ref=e384] [cursor=pointer]:
+                        - /url: /p/DWkGZu0ATiq/c/18188353567364881/
+                        - time [ref=e385]: 2 sem
+                    - generic [ref=e387]: Grande XP 👏👏👏🙌
+                  - generic [ref=e388]:
+                    - button "2 curtidas" [ref=e389] [cursor=pointer]:
+                      - generic [ref=e391]: 2 curtidas
+                    - button "Responder" [ref=e392] [cursor=pointer]:
+                      - generic [ref=e394]: Responder
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - button "Curtir" [ref=e400] [cursor=pointer]:
+                  - img "Curtir" [ref=e403]
+                - button "991" [ref=e405] [cursor=pointer]
+                - button "Comentar" [ref=e407] [cursor=pointer]:
+                  - img "Comentar" [ref=e409]
+                - button "24" [ref=e411] [cursor=pointer]
+                - button "Compartilhar" [ref=e412] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e413]
+              - button "Salvar" [ref=e417] [cursor=pointer]:
+                - img "Salvar" [ref=e419]
+            - link "31 de março" [ref=e423] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DWkGZu0ATiq/
+              - time [ref=e425]: 31 de março
+          - generic [ref=e430]:
+            - link "Entrar" [ref=e431] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDWkGZu0ATiq%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e433]
+      - generic [ref=e434]:
+        - generic [ref=e436]:
+          - text: Mais posts de
+          - link "xpinvestimentos" [ref=e437] [cursor=pointer]:
+            - /url: /xpinvestimentos/
+        - generic [ref=e440]:
+          - generic [ref=e441]:
+            - link "Histórico! O tênis como você nunca viu agora é com a XP. Hoje anunciamos a nossa parceria com o UTS! Nossos clientes terão acesso a uma pré-venda exclusiva, mas o jogo começa agora para todo mundo. Comente “UTS É COM A XP” e torça para ganhar um ingresso. Clipe" [ref=e443] [cursor=pointer]:
+              - /url: /guilhermebenchimol/reel/DXHnZ-1EZ1N/
+              - img "Histórico! O tênis como você nunca viu agora é com a XP. Hoje anunciamos a nossa parceria com o UTS! Nossos clientes terão acesso a uma pré-venda exclusiva, mas o jogo começa agora para todo mundo. Comente “UTS É COM A XP” e torça para ganhar um ingresso." [ref=e446]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Você já fez essas perguntas sobre seus investimentos? Na XP, você tem acesso a todos os modelos de atendimento para escolher o que faz mais sentido para o seu perfil. Compare, entenda e escolha com mais confiança. Carrossel" [ref=e449] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DXHJtyYluD-/
+              - img "Você já fez essas perguntas sobre seus investimentos? Na XP, você tem acesso a todos os modelos de atendimento para escolher o que faz mais sentido para o seu perfil. Compare, entenda e escolha com mais confiança." [ref=e452]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Quando o foco é crescer, ter com quem contar faz toda a diferença. O Richard encontrou no @gustavolicursi, Expert da XP, o parceiro ideal para organizar sua vida financeira enquanto ele segue criando e expandindo seu negócio. Clipe" [ref=e455] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DW7BVKsklGU/
+              - img "Quando o foco é crescer, ter com quem contar faz toda a diferença. O Richard encontrou no @gustavolicursi, Expert da XP, o parceiro ideal para organizar sua vida financeira enquanto ele segue criando e expandindo seu negócio." [ref=e458]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e460]:
+            - 'link "Confiança se constrói com transparência, e, principalmente, com controle nas duas mãos. No Expert da XP responde de hoje, explica-nos o papel do assessor no seu planejamento: alguém que orienta, abre caminhos e segue padrões rigorosos de certificação e ética, mas sem nunca tirar de você o protagonismo das decisões. Clipe" [ref=e462] [cursor=pointer]':
+              - /url: /xpinvestimentos/reel/DW4QaYEkjzK/
+              - 'img "Confiança se constrói com transparência, e, principalmente, com controle nas duas mãos. No Expert da XP responde de hoje, explica-nos o papel do assessor no seu planejamento: alguém que orienta, abre caminhos e segue padrões rigorosos de certificação e ética, mas sem nunca tirar de você o protagonismo das decisões." [ref=e465]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Essa com certeza foi a ligação mais importante do meu dia. Voltei a ser assessor por alguns minutos para dar as boas-vindas a uma nova cliente da XP e de brinde, ela ainda saiu com um presentão!! Clipe" [ref=e468] [cursor=pointer]:
+              - /url: /guilhermebenchimol/reel/DWyn4d0EWje/
+              - img "Essa com certeza foi a ligação mais importante do meu dia. Voltei a ser assessor por alguns minutos para dar as boas-vindas a uma nova cliente da XP e de brinde, ela ainda saiu com um presentão!!" [ref=e471]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Quando o assunto é família, confiança faz toda a diferença. A Gabi encontrou na @bia_donegatti , Expert da XP, a aliada perfeita para organizar o presente, encarar conversas difíceis e estruturar o planejamento familiar. Entre estratégias, diálogos e muita confiança, nasceu uma parceria que abre caminhos para decisões mais seguras, geração após geração.Tenha você também um assessor de confiança. Clipe" [ref=e474] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DWoTzcpErhv/
+              - img "Quando o assunto é família, confiança faz toda a diferença. A Gabi encontrou na @bia_donegatti , Expert da XP, a aliada perfeita para organizar o presente, encarar conversas difíceis e estruturar o planejamento familiar. Entre estratégias, diálogos e muita confiança, nasceu uma parceria que abre caminhos para decisões mais seguras, geração após geração.Tenha você também um assessor de confiança." [ref=e477]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e479]:
+            - link "Transparência, poder de escolha na mão do cliente e múltiplos modelos de atendimentos são os pilares que você encontra na XP para mitigar potenciais conflitos de interesse. Invista onde você tem poder de escolha. Invista com a XP. Clipe" [ref=e481] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DWlxzCdkjc9/
+              - img "Transparência, poder de escolha na mão do cliente e múltiplos modelos de atendimentos são os pilares que você encontra na XP para mitigar potenciais conflitos de interesse. Invista onde você tem poder de escolha. Invista com a XP." [ref=e484]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "O modelo Fee Fixo é o que você procurava? Confira mais detalhes. Se já é cliente, fale com seu assessor. Se não, pergunte ao seu gerente como ele é remunerado. Carrossel" [ref=e487] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DWkGRhtgdl5/
+              - img "O modelo Fee Fixo é o que você procurava? Confira mais detalhes. Se já é cliente, fale com seu assessor. Se não, pergunte ao seu gerente como ele é remunerado." [ref=e490]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+        - generic [ref=e493]:
+          - link "Ver mais posts" [ref=e495] [cursor=pointer]:
+            - /url: /xpinvestimentos/
+            - generic [ref=e496]: Ver mais posts
+          - separator [ref=e497]
+  - contentinfo [ref=e498]:
+    - generic [ref=e499]:
+      - generic [ref=e501]:
+        - link "Meta" [ref=e503] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e504]: Meta
+        - link "Sobre" [ref=e506] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e507]: Sobre
+        - link "Blog" [ref=e509] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e510]: Blog
+        - link "Carreiras" [ref=e512] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e513]: Carreiras
+        - link "Ajuda" [ref=e515] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e516]: Ajuda
+        - link "API" [ref=e518] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e519]: API
+        - link "Privacidade" [ref=e521] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e522]: Privacidade
+        - link "Termos" [ref=e524] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e525]: Termos
+        - link "Localizações" [ref=e527] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e528]: Localizações
+        - link "Instagram Lite" [ref=e530] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e531]: Instagram Lite
+        - link "Meta AI" [ref=e533] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e534]: Meta AI
+        - link "Threads" [ref=e536] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e537]: Threads
+        - link "Upload de contatos e não usuários" [ref=e539] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e540]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e542] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e543]: Meta Verified
+      - generic [ref=e544]:
+        - generic [ref=e545] [cursor=pointer]:
+          - generic [ref=e546]:
+            - generic [ref=e547]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e550]
+          - combobox "Trocar idioma de exibição" [ref=e552]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e554]: © 2026 Instagram from Meta

@@ -1,0 +1,284 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDTF9C28Ef3p%2F%3Fimg_index%3D4&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - img [ref=e89]
+              - listitem [ref=e91]:
+                - img [ref=e98]
+              - listitem [ref=e100]:
+                - img [ref=e107]
+            - button [ref=e109] [cursor=pointer]
+            - button [ref=e111] [cursor=pointer]
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - button "Foto do perfil de h1editora" [disabled] [ref=e118]:
+              - link "Foto do perfil de h1editora" [disabled] [ref=e120] [cursor=pointer]:
+                - img "Foto do perfil de h1editora" [ref=e121]
+            - generic [ref=e124]:
+              - generic [ref=e126]:
+                - link "h1editora" [ref=e128] [cursor=pointer]:
+                  - /url: /h1editora/
+                  - generic [ref=e131]: h1editora
+                - img "Verificado" [ref=e133]
+              - generic [ref=e135]:
+                - generic [ref=e137]: •
+                - button "Seguir" [ref=e138] [cursor=pointer]
+            - button "Mais opções" [ref=e141] [cursor=pointer]:
+              - img "Mais opções" [ref=e144]
+          - separator [ref=e148]
+          - generic [ref=e150]:
+            - generic [ref=e152]:
+              - link "Foto do perfil de h1editora" [ref=e154] [cursor=pointer]:
+                - /url: /h1editora/
+                - img "Foto do perfil de h1editora" [ref=e155]
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - link "h1editora Verificado" [ref=e161] [cursor=pointer]:
+                    - /url: /h1editora/
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: h1editora
+                      - img "Verificado" [ref=e166]
+                  - time [ref=e169]: 14 sem
+                - generic [ref=e170]:
+                  - text: Imagine um produto elogiado por Steve Jobs e Jeff Bezos se tornar um fracasso de vendas por um erro de copy.
+                  - text: Esse foi o erro que custou milhões — e que todo copywriter precisa conhecer.
+                  - text: Sem entender a diferença entre características e benefícios, nem mesmo um produto revolucionário salva uma copy ruim.
+                  - text: Você conhece outros casos assim? Conte nos comentários!
+            - button "Carregar mais comentários" [ref=e172] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e174]
+            - generic [ref=e179]:
+              - link "Foto do perfil de ph.raphaelarao" [ref=e182] [cursor=pointer]:
+                - /url: /ph.raphaelarao/
+                - img "Foto do perfil de ph.raphaelarao" [ref=e183]
+              - generic [ref=e185]:
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - link "ph.raphaelarao" [ref=e190] [cursor=pointer]:
+                      - /url: /ph.raphaelarao/
+                      - generic [ref=e193]: ph.raphaelarao
+                    - link "14 sem" [ref=e195] [cursor=pointer]:
+                      - /url: /p/DTF9C28Ef3p/c/17845067019648976/
+                      - time [ref=e196]: 14 sem
+                  - generic [ref=e198]: Eugene
+                - generic [ref=e199]:
+                  - button "Curtir" [ref=e200] [cursor=pointer]:
+                    - generic [ref=e201]: Curtir
+                  - button "Responder" [ref=e202] [cursor=pointer]:
+                    - generic [ref=e204]: Responder
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - button "Curtir" [ref=e210] [cursor=pointer]:
+                  - img "Curtir" [ref=e213]
+                - button "438" [ref=e215] [cursor=pointer]
+                - button "Comentar" [ref=e217] [cursor=pointer]:
+                  - img "Comentar" [ref=e219]
+                - button "4" [ref=e221] [cursor=pointer]
+                - button "Compartilhar" [ref=e222] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e223]
+              - button "Salvar" [ref=e227] [cursor=pointer]:
+                - img "Salvar" [ref=e229]
+            - link "4 de janeiro" [ref=e233] [cursor=pointer]:
+              - /url: /h1editora/p/DTF9C28Ef3p/
+              - time [ref=e235]: 4 de janeiro
+          - generic [ref=e240]:
+            - link "Entrar" [ref=e241] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDTF9C28Ef3p%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e243]
+      - generic [ref=e244]:
+        - generic [ref=e246]:
+          - text: Mais posts de
+          - link "h1editora" [ref=e247] [cursor=pointer]:
+            - /url: /h1editora/
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - link "Nunca mais leia sozinho. H1 Clube do Livro A Estreia 22Abr, 10h. Faça a sua pré-inscrição no link da bio. Carrossel" [ref=e361] [cursor=pointer]:
+              - /url: /h1editora/p/DXIMCWpkZmB/
+              - img "Nunca mais leia sozinho. H1 Clube do Livro A Estreia 22Abr, 10h. Faça a sua pré-inscrição no link da bio." [ref=e362]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Fique ligado no perfil da H1 nos próximos dias 👀 Enquanto isso, deixe seu palpite sobre qual será o primeiro livro que leremos juntos👇 Clipe" [ref=e363] [cursor=pointer]:
+              - /url: /h1editora/reel/DXFnul_kdKm/
+              - img "Fique ligado no perfil da H1 nos próximos dias 👀 Enquanto isso, deixe seu palpite sobre qual será o primeiro livro que leremos juntos👇" [ref=e364]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Já parou para pensar? Muitas vezes, você fica preso à ideia de que mais é sempre melhor, e passa a vida buscando isso — com falta de clareza, investimentos arriscados e decisões erradas. É possível aprender a lidar com o seu dinheiro e tomar decisões inteligentes e estratégicas para construir um verdadeiro patrimônio financeiro. Na H1, temos 4 livros que formam a trilha ideal para você organizar não apenas suas finanças, mas a forma como você pensa sobre dinheiro. 💷 Suficiente, de John Bogle 💶 Como Pensar Sobre Dinheiro, de Jonathan Clements 💵 Charlie Munger: O Investidor Completo, de Tren Griffin 💴 Geometria da Riqueza, de Brian Portnov Você encontra todos eles na seção “Finanças”, no site da H1. Link na bio. Carrossel" [ref=e365] [cursor=pointer]':
+              - /url: /h1editora/p/DXCS9LAkbZ5/
+              - 'img "Já parou para pensar? Muitas vezes, você fica preso à ideia de que mais é sempre melhor, e passa a vida buscando isso — com falta de clareza, investimentos arriscados e decisões erradas. É possível aprender a lidar com o seu dinheiro e tomar decisões inteligentes e estratégicas para construir um verdadeiro patrimônio financeiro. Na H1, temos 4 livros que formam a trilha ideal para você organizar não apenas suas finanças, mas a forma como você pensa sobre dinheiro. 💷 Suficiente, de John Bogle 💶 Como Pensar Sobre Dinheiro, de Jonathan Clements 💵 Charlie Munger: O Investidor Completo, de Tren Griffin 💴 Geometria da Riqueza, de Brian Portnov Você encontra todos eles na seção “Finanças”, no site da H1. Link na bio." [ref=e366]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e267]:
+            - link "Se você quer expandir o repertório de habilidades que fazem diferença na sua vida pessoal e profissional, recorra aos bons livros que estão esperando na sua estante — e no link da bio. Carrossel" [ref=e367] [cursor=pointer]:
+              - /url: /h1editora/p/DW95cKUka_G/
+              - img "Se você quer expandir o repertório de habilidades que fazem diferença na sua vida pessoal e profissional, recorra aos bons livros que estão esperando na sua estante — e no link da bio." [ref=e368]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - 'link "O mercado sempre fala. A questão é: você está ouvindo? Clipe" [ref=e369] [cursor=pointer]':
+              - /url: /h1editora/reel/DW7UopABXHv/
+              - 'img "O mercado sempre fala. A questão é: você está ouvindo?" [ref=e370]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Enquanto todo mundo lia o resumo, você leu o livro. Enquanto a atenção virava commodity, você protegia a sua. Enquanto o feed acelerava, você abria mais uma página. Isso não é pouca coisa. O Dia Mundial do Livro é celebrado em 23 de abril. Mas a H1 decidiu não esperar, porque quem lê de verdade também não costuma esperar o momento perfeito para começar o próximo livro. De 8 a 10 de abril, ao adicionar 4 livros ao carrinho, você paga apenas 3. O de menor valor é por nossa conta. 🎁 Clique no link na bio e aproveite. Carrossel" [ref=e371] [cursor=pointer]:
+              - /url: /h1editora/p/DW4vws0kSMG/
+              - img "Enquanto todo mundo lia o resumo, você leu o livro. Enquanto a atenção virava commodity, você protegia a sua. Enquanto o feed acelerava, você abria mais uma página. Isso não é pouca coisa. O Dia Mundial do Livro é celebrado em 23 de abril. Mas a H1 decidiu não esperar, porque quem lê de verdade também não costuma esperar o momento perfeito para começar o próximo livro. De 8 a 10 de abril, ao adicionar 4 livros ao carrinho, você paga apenas 3. O de menor valor é por nossa conta. 🎁 Clique no link na bio e aproveite." [ref=e372]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e283]:
+            - link "Significado, memória afetiva, pertencimento… tudo isso é mais importante do que a qualidade de um produto? Conte sua opinião pra gente 👇 Clipe" [ref=e373] [cursor=pointer]:
+              - /url: /h1editora/reel/DW2K-_-BzwL/
+              - img "Significado, memória afetiva, pertencimento… tudo isso é mais importante do que a qualidade de um produto? Conte sua opinião pra gente 👇" [ref=e374]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "A força de vontade é superestimada. Pessoas produtivas não vencem a distração na raça. Elas constroem sistemas para que ela não tenha chance. Em Produtividade do Bem, você aprende a parar de lutar contra as suas sereias e começar a se amarrar ao mastro certo. Conheça o livro de Ali Abdaal no link na bio. Carrossel" [ref=e375] [cursor=pointer]:
+              - /url: /h1editora/p/DWzmz6rkV53/
+              - img "A força de vontade é superestimada. Pessoas produtivas não vencem a distração na raça. Elas constroem sistemas para que ela não tenha chance. Em Produtividade do Bem, você aprende a parar de lutar contra as suas sereias e começar a se amarrar ao mastro certo. Conheça o livro de Ali Abdaal no link na bio." [ref=e376]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "O chocolate ficou mais caro. O cacau está em crise. E a Páscoa vai acontecer do mesmo jeito. Não é a primeira vez que o preço sobe e o consumidor compra assim mesmo. E não será a última. Porque existem decisões de compra que nenhuma planilha financeira consegue racionalizar. Para quem trabalha com marketing, entender o que move essas decisões vale mais do que qualquer desconto. E as datas comemorativas são lembretes anuais disso. Feliz Páscoa! 🍫 Carrossel" [ref=e377] [cursor=pointer]:
+              - /url: /h1editora/p/DWwRWGWEWqc/
+              - img "O chocolate ficou mais caro. O cacau está em crise. E a Páscoa vai acontecer do mesmo jeito. Não é a primeira vez que o preço sobe e o consumidor compra assim mesmo. E não será a última. Porque existem decisões de compra que nenhuma planilha financeira consegue racionalizar. Para quem trabalha com marketing, entender o que move essas decisões vale mais do que qualquer desconto. E as datas comemorativas são lembretes anuais disso. Feliz Páscoa! 🍫" [ref=e378]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+        - generic [ref=e299]:
+          - link "Ver mais posts" [ref=e301] [cursor=pointer]:
+            - /url: /h1editora/
+            - generic [ref=e302]: Ver mais posts
+          - separator [ref=e303]
+  - contentinfo [ref=e304]:
+    - generic [ref=e305]:
+      - generic [ref=e307]:
+        - link "Meta" [ref=e309] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e310]: Meta
+        - link "Sobre" [ref=e312] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e313]: Sobre
+        - link "Blog" [ref=e315] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e316]: Blog
+        - link "Carreiras" [ref=e318] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e319]: Carreiras
+        - link "Ajuda" [ref=e321] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e322]: Ajuda
+        - link "API" [ref=e324] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e325]: API
+        - link "Privacidade" [ref=e327] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e328]: Privacidade
+        - link "Termos" [ref=e330] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e331]: Termos
+        - link "Localizações" [ref=e333] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e334]: Localizações
+        - link "Instagram Lite" [ref=e336] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e337]: Instagram Lite
+        - link "Meta AI" [ref=e339] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e340]: Meta AI
+        - link "Threads" [ref=e342] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e343]: Threads
+        - link "Upload de contatos e não usuários" [ref=e345] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e346]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e348] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e349]: Meta Verified
+      - generic [ref=e350]:
+        - generic [ref=e351] [cursor=pointer]:
+          - generic [ref=e352]:
+            - generic [ref=e353]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e356]
+          - combobox "Trocar idioma de exibição" [ref=e358]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e360]: © 2026 Instagram from Meta

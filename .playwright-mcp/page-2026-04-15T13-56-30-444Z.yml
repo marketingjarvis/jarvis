@@ -1,0 +1,513 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDSYEo-vEVQH%2F%3Fimg_index%3D2&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - img [ref=e89]
+              - listitem [ref=e91]:
+                - img [ref=e98]
+              - listitem [ref=e100]:
+                - img [ref=e107]
+            - button [ref=e109] [cursor=pointer]
+            - button [ref=e111] [cursor=pointer]
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - button "Foto do perfil de fazendadorosa" [disabled] [ref=e118]:
+              - link "Foto do perfil de fazendadorosa" [disabled] [ref=e120] [cursor=pointer]:
+                - img "Foto do perfil de fazendadorosa" [ref=e121]
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - link "fazendadorosa" [ref=e128] [cursor=pointer]:
+                  - /url: /fazendadorosa/
+                  - generic [ref=e131]: fazendadorosa
+                - generic [ref=e132]:
+                  - generic [ref=e134]: •
+                  - button "Seguir" [ref=e135] [cursor=pointer]
+              - link "Praia do Rosa - Imbituba - Sc" [ref=e139] [cursor=pointer]:
+                - /url: /explore/locations/224645213/praia-do-rosa-imbituba-sc/
+            - button "Mais opções" [ref=e142] [cursor=pointer]:
+              - img "Mais opções" [ref=e145]
+          - separator [ref=e149]
+          - generic [ref=e151]:
+            - generic [ref=e153]:
+              - link "Foto do perfil de fazendadorosa" [ref=e155] [cursor=pointer]:
+                - /url: /fazendadorosa/
+                - img "Foto do perfil de fazendadorosa" [ref=e156]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - link "fazendadorosa" [ref=e162] [cursor=pointer]:
+                    - /url: /fazendadorosa/
+                    - generic [ref=e165]: fazendadorosa
+                  - time [ref=e167]: 16 sem
+                - generic [ref=e168]:
+                  - text: "Pra quem vem pela primeira vez ou volta para matar a saudade, este carrossel é o seu miniguia do Rosa: geografia que faz sentido na vida real, trilhas que valem o tênis, ventos que pedem prancha, mesa boa quando o sol baixa e o lugar certo para deixar o relógio perder a importância."
+                  - text: Do agito do Norte e da trilha até a Vermelha ao silêncio bom do Sul e do caminho para a Luz; do plano B doce da Lagoa do Meio aos sunsets do Maram Beach Garden.
+                  - text: No meio do caminho, a cena gastronômica que faz fama, os rolês que viram história e a Virada Mágica - nascer do sol que muita gente guarda na memória.
+                  - text: "Guarde também as dicas de ouro: temporada das baleias entre julho e novembro, ruas de terra que pedem leveza, APA que preserva o horizonte."
+                  - text: "Salve este post, marque quem vem com você e escolha ficar no canto onde tudo faz sentido a pé: a Fazenda do Rosa é sua base de reconexão."
+                  - text: Reservas no link da bio ou pelo WhatsApp do perfil. 🌊🐋✨
+            - button "Carregar mais comentários" [ref=e170] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e177]:
+                - link "Foto do perfil de laercioce" [ref=e180] [cursor=pointer]:
+                  - /url: /laercioce/
+                  - img "Foto do perfil de laercioce" [ref=e181]
+                - generic [ref=e183]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]:
+                      - link "laercioce" [ref=e188] [cursor=pointer]:
+                        - /url: /laercioce/
+                        - generic [ref=e191]: laercioce
+                      - link "13 sem" [ref=e193] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18333538135213670/
+                        - time [ref=e194]: 13 sem
+                    - generic [ref=e196]: https://open.spotify.com/track/2UpJyE5R8K90gmVcV9MDMZ?si=nBeymCvITj6Y3Fhe8LFKwA
+                  - generic [ref=e197]:
+                    - button "1 curtida" [ref=e198] [cursor=pointer]:
+                      - generic [ref=e200]: 1 curtida
+                    - button "Responder" [ref=e201] [cursor=pointer]:
+                      - generic [ref=e203]: Responder
+              - generic [ref=e206]:
+                - link "Foto do perfil de gabysferreira" [ref=e209] [cursor=pointer]:
+                  - /url: /gabysferreira/
+                  - img "Foto do perfil de gabysferreira" [ref=e210]
+                - generic [ref=e212]:
+                  - generic [ref=e214]:
+                    - generic [ref=e215]:
+                      - link "gabysferreira" [ref=e217] [cursor=pointer]:
+                        - /url: /gabysferreira/
+                        - generic [ref=e220]: gabysferreira
+                      - link "15 sem" [ref=e222] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/17846521275626517/
+                        - time [ref=e223]: 15 sem
+                    - generic [ref=e225]: Alguem sabe como conseguir nome na lista no Quintal?
+                  - generic [ref=e226]:
+                    - button "1 curtida" [ref=e227] [cursor=pointer]:
+                      - generic [ref=e229]: 1 curtida
+                    - button "Responder" [ref=e230] [cursor=pointer]:
+                      - generic [ref=e232]: Responder
+              - generic [ref=e235]:
+                - link "Foto do perfil de luamarinha" [ref=e238] [cursor=pointer]:
+                  - /url: /luamarinha/
+                  - img "Foto do perfil de luamarinha" [ref=e239]
+                - generic [ref=e241]:
+                  - generic [ref=e243]:
+                    - generic [ref=e244]:
+                      - link "luamarinha" [ref=e246] [cursor=pointer]:
+                        - /url: /luamarinha/
+                        - generic [ref=e249]: luamarinha
+                      - link "16 sem" [ref=e251] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/17878281882444787/
+                        - time [ref=e252]: 16 sem
+                    - generic [ref=e254]: Fantástico!! 👏🏼
+                  - generic [ref=e255]:
+                    - button "1 curtida" [ref=e256] [cursor=pointer]:
+                      - generic [ref=e258]: 1 curtida
+                    - button "Responder" [ref=e259] [cursor=pointer]:
+                      - generic [ref=e261]: Responder
+              - generic [ref=e264]:
+                - link "Foto do perfil de ah3lder" [ref=e267] [cursor=pointer]:
+                  - /url: /ah3lder/
+                  - img "Foto do perfil de ah3lder" [ref=e268]
+                - generic [ref=e270]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]:
+                      - link "ah3lder" [ref=e275] [cursor=pointer]:
+                        - /url: /ah3lder/
+                        - generic [ref=e278]: ah3lder
+                      - link "16 sem" [ref=e280] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18086125766076760/
+                        - time [ref=e281]: 16 sem
+                    - generic [ref=e283]: Salvei!!! Top! Segunda a quinta queremos explorar🔥👏
+                  - generic [ref=e284]:
+                    - button "1 curtida" [ref=e285] [cursor=pointer]:
+                      - generic [ref=e287]: 1 curtida
+                    - button "Responder" [ref=e288] [cursor=pointer]:
+                      - generic [ref=e290]: Responder
+              - generic [ref=e293]:
+                - link "Foto do perfil de refugiodopescador" [ref=e296] [cursor=pointer]:
+                  - /url: /refugiodopescador/
+                  - img "Foto do perfil de refugiodopescador" [ref=e297]
+                - generic [ref=e299]:
+                  - generic [ref=e301]:
+                    - generic [ref=e302]:
+                      - link "refugiodopescador" [ref=e304] [cursor=pointer]:
+                        - /url: /refugiodopescador/
+                        - generic [ref=e307]: refugiodopescador
+                      - link "16 sem" [ref=e309] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/17860578756560240/
+                        - time [ref=e310]: 16 sem
+                    - generic [ref=e312]: Experiência completa pra ser feliz no Rosa ❤ obrigada pela indicação pessoal ✨✨
+                  - generic [ref=e313]:
+                    - button "1 curtida" [ref=e314] [cursor=pointer]:
+                      - generic [ref=e316]: 1 curtida
+                    - button "Responder" [ref=e317] [cursor=pointer]:
+                      - generic [ref=e319]: Responder
+              - generic [ref=e322]:
+                - link "Foto do perfil de cabanas__praia_do_rosa" [ref=e325] [cursor=pointer]:
+                  - /url: /cabanas__praia_do_rosa/
+                  - img "Foto do perfil de cabanas__praia_do_rosa" [ref=e326]
+                - generic [ref=e328]:
+                  - generic [ref=e330]:
+                    - generic [ref=e331]:
+                      - link "cabanas__praia_do_rosa" [ref=e333] [cursor=pointer]:
+                        - /url: /cabanas__praia_do_rosa/
+                        - generic [ref=e336]: cabanas__praia_do_rosa
+                      - link "16 sem" [ref=e338] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/17864667972457131/
+                        - time [ref=e339]: 16 sem
+                    - generic [ref=e341]: ❤️❤️❤️❤️❤️
+                  - generic [ref=e342]:
+                    - button "1 curtida" [ref=e343] [cursor=pointer]:
+                      - generic [ref=e345]: 1 curtida
+                    - button "Responder" [ref=e346] [cursor=pointer]:
+                      - generic [ref=e348]: Responder
+              - generic [ref=e351]:
+                - link "Foto do perfil de cb.beto" [ref=e354] [cursor=pointer]:
+                  - /url: /cb.beto/
+                  - img "Foto do perfil de cb.beto" [ref=e355]
+                - generic [ref=e357]:
+                  - generic [ref=e359]:
+                    - generic [ref=e360]:
+                      - link "cb.beto" [ref=e362] [cursor=pointer]:
+                        - /url: /cb.beto/
+                        - generic [ref=e365]: cb.beto
+                      - link "16 sem" [ref=e367] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18091293523943018/
+                        - time [ref=e368]: 16 sem
+                    - generic [ref=e370]: Toppppp
+                  - generic [ref=e371]:
+                    - button "1 curtida" [ref=e372] [cursor=pointer]:
+                      - generic [ref=e374]: 1 curtida
+                    - button "Responder" [ref=e375] [cursor=pointer]:
+                      - generic [ref=e377]: Responder
+              - generic [ref=e380]:
+                - link "Foto do perfil de ninasole_" [ref=e383] [cursor=pointer]:
+                  - /url: /ninasole_/
+                  - img "Foto do perfil de ninasole_" [ref=e384]
+                - generic [ref=e386]:
+                  - generic [ref=e388]:
+                    - generic [ref=e389]:
+                      - link "ninasole_" [ref=e391] [cursor=pointer]:
+                        - /url: /ninasole_/
+                        - generic [ref=e394]: ninasole_
+                      - link "16 sem" [ref=e396] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/17843790600639959/
+                        - time [ref=e397]: 16 sem
+                    - generic [ref=e399]: 🤌😍
+                  - generic [ref=e400]:
+                    - button "1 curtida" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e403]: 1 curtida
+                    - button "Responder" [ref=e404] [cursor=pointer]:
+                      - generic [ref=e406]: Responder
+              - generic [ref=e409]:
+                - link "Foto do perfil de jlberasaluce" [ref=e412] [cursor=pointer]:
+                  - /url: /jlberasaluce/
+                  - img "Foto do perfil de jlberasaluce" [ref=e413]
+                - generic [ref=e415]:
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - link "jlberasaluce" [ref=e420] [cursor=pointer]:
+                        - /url: /jlberasaluce/
+                        - generic [ref=e423]: jlberasaluce
+                      - link "16 sem" [ref=e425] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18066992051398159/
+                        - time [ref=e426]: 16 sem
+                    - generic [ref=e428]:
+                      - text: Paradise 😍👏
+                      - link "@fazendadorosa" [ref=e429] [cursor=pointer]:
+                        - /url: /fazendadorosa/
+                      - text: 😍😍
+                  - generic [ref=e430]:
+                    - button "1 curtida" [ref=e431] [cursor=pointer]:
+                      - generic [ref=e433]: 1 curtida
+                    - button "Responder" [ref=e434] [cursor=pointer]:
+                      - generic [ref=e436]: Responder
+              - generic [ref=e439]:
+                - link "Foto do perfil de lbpark_rosa" [ref=e442] [cursor=pointer]:
+                  - /url: /lbpark_rosa/
+                  - img "Foto do perfil de lbpark_rosa" [ref=e443]
+                - generic [ref=e445]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]:
+                      - link "lbpark_rosa" [ref=e450] [cursor=pointer]:
+                        - /url: /lbpark_rosa/
+                        - generic [ref=e453]: lbpark_rosa
+                      - link "16 sem" [ref=e455] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18048574454448635/
+                        - time [ref=e456]: 16 sem
+                    - generic [ref=e458]: O mini guia com o roteiro mais vibe da praia! 👏🌹✨
+                  - generic [ref=e459]:
+                    - button "1 curtida" [ref=e460] [cursor=pointer]:
+                      - generic [ref=e462]: 1 curtida
+                    - button "Responder" [ref=e463] [cursor=pointer]:
+                      - generic [ref=e465]: Responder
+              - generic [ref=e468]:
+                - link "Foto do perfil de victoriaclasen_" [ref=e471] [cursor=pointer]:
+                  - /url: /victoriaclasen_/
+                  - img "Foto do perfil de victoriaclasen_" [ref=e472]
+                - generic [ref=e474]:
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - link "victoriaclasen_ Verificado" [ref=e479] [cursor=pointer]:
+                        - /url: /victoriaclasen_/
+                        - generic [ref=e481]:
+                          - generic [ref=e482]: victoriaclasen_
+                          - img "Verificado" [ref=e484]
+                      - link "16 sem" [ref=e487] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18090869179941639/
+                        - time [ref=e488]: 16 sem
+                    - generic [ref=e490]: Demais!! 😍🌊
+                  - generic [ref=e491]:
+                    - button "1 curtida" [ref=e492] [cursor=pointer]:
+                      - generic [ref=e494]: 1 curtida
+                    - button "Responder" [ref=e495] [cursor=pointer]:
+                      - generic [ref=e497]: Responder
+              - generic [ref=e500]:
+                - link "Foto do perfil de zoletpizzas" [ref=e503] [cursor=pointer]:
+                  - /url: /zoletpizzas/
+                  - img "Foto do perfil de zoletpizzas" [ref=e504]
+                - generic [ref=e506]:
+                  - generic [ref=e508]:
+                    - generic [ref=e509]:
+                      - link "zoletpizzas" [ref=e511] [cursor=pointer]:
+                        - /url: /zoletpizzas/
+                        - generic [ref=e514]: zoletpizzas
+                      - link "16 sem" [ref=e516] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18066466820174823/
+                        - time [ref=e517]: 16 sem
+                    - generic [ref=e519]: Sensacional! Guia de bom gosto!
+                  - generic [ref=e520]:
+                    - button "2 curtidas" [ref=e521] [cursor=pointer]:
+                      - generic [ref=e523]: 2 curtidas
+                    - button "Responder" [ref=e524] [cursor=pointer]:
+                      - generic [ref=e526]: Responder
+              - generic [ref=e529]:
+                - link "Foto do perfil de alohapdr" [ref=e532] [cursor=pointer]:
+                  - /url: /alohapdr/
+                  - img "Foto do perfil de alohapdr" [ref=e533]
+                - generic [ref=e535]:
+                  - generic [ref=e537]:
+                    - generic [ref=e538]:
+                      - link "alohapdr" [ref=e540] [cursor=pointer]:
+                        - /url: /alohapdr/
+                        - generic [ref=e543]: alohapdr
+                      - link "16 sem" [ref=e545] [cursor=pointer]:
+                        - /url: /p/DSYEo-vEVQH/c/18015625811796925/
+                        - time [ref=e546]: 16 sem
+                    - generic [ref=e548]: Um lindo verão a todos! ❤️✨
+                  - generic [ref=e549]:
+                    - button "4 curtidas" [ref=e550] [cursor=pointer]:
+                      - generic [ref=e552]: 4 curtidas
+                    - button "Responder" [ref=e553] [cursor=pointer]:
+                      - generic [ref=e555]: Responder
+          - generic [ref=e556]:
+            - generic [ref=e557]:
+              - generic [ref=e558]:
+                - button "Curtir" [ref=e561] [cursor=pointer]:
+                  - img "Curtir" [ref=e564]
+                - button "767" [ref=e566] [cursor=pointer]
+                - button "Comentar" [ref=e568] [cursor=pointer]:
+                  - img "Comentar" [ref=e570]
+                - button "26" [ref=e572] [cursor=pointer]
+                - button "Compartilhar" [ref=e573] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e574]
+              - button "Salvar" [ref=e578] [cursor=pointer]:
+                - img "Salvar" [ref=e580]
+            - link "17 de dezembro de 2025" [ref=e584] [cursor=pointer]:
+              - /url: /fazendadorosa/p/DSYEo-vEVQH/
+              - time [ref=e586]: 17 de dezembro de 2025
+          - generic [ref=e591]:
+            - link "Entrar" [ref=e592] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDSYEo-vEVQH%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e594]
+      - generic [ref=e595]:
+        - generic [ref=e597]:
+          - text: Mais posts de
+          - link "fazendadorosa" [ref=e598] [cursor=pointer]:
+            - /url: /fazendadorosa/
+        - generic [ref=e601]:
+          - generic [ref=e602]:
+            - 'link "Casar no paraíso e com um elenco de apoio IMBATÍVEL é outro nível! Obrigada, madrinhas, por segurarem o véu e as lágrimas; padrinhos, por segurarem a emoção e a pista; amigos, por segurarem os noivos quando o coração transbordou. Fotografia: @fotografiadubau #noivos #teambride #casanapraia #casamentos #fazendadorosa #praiadorosa #santacatarina #padrinhos #madrinhas Carrossel" [ref=e708] [cursor=pointer]':
+              - /url: /fazendadorosa/p/DNqudrMuxLT/
+              - 'img "Casar no paraíso e com um elenco de apoio IMBATÍVEL é outro nível! Obrigada, madrinhas, por segurarem o véu e as lágrimas; padrinhos, por segurarem a emoção e a pista; amigos, por segurarem os noivos quando o coração transbordou. Fotografia: @fotografiadubau #noivos #teambride #casanapraia #casamentos #fazendadorosa #praiadorosa #santacatarina #padrinhos #madrinhas" [ref=e709]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - 'link "Seja para relaxar, se aventurar ou simplesmente viver dias inesquecíveis, a Fazenda do Rosa é o seu refúgio perfeito. Compartilhe com quem vai viver essa aventura com você.⬇️ #fazendadorosa #pousada #praiadorosa #feriado #destinodeviagem Clipe" [ref=e710] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DGA3SyTO9Hv/
+              - 'img "Seja para relaxar, se aventurar ou simplesmente viver dias inesquecíveis, a Fazenda do Rosa é o seu refúgio perfeito. Compartilhe com quem vai viver essa aventura com você.⬇️ #fazendadorosa #pousada #praiadorosa #feriado #destinodeviagem" [ref=e711]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Há cerimônias que celebram um amor. E há aquelas que, por um instante raro, parecem abraçar o tempo inteiro de uma família. Quando uma surpresa assim acontece, o casamento deixa de ser só um marco para os noivos e se transforma em memória viva para todos que estão ali. É nesse tipo de delicadeza que mora a beleza do que fazemos: momentos que ninguém esperava, mas que todo mundo vai guardar para sempre. Na Fazenda do Rosa, cada celebração encontra seu próprio jeito de tocar o coração. Algumas pela paisagem. Outras pela história. E algumas, como essa, pela emoção de lembrar que o amor também atravessa gerações. #casamentonapraia #weddingdestinationbrasil #casamentointimista #destinationweddingbrasil #fazendadorosa Clipe" [ref=e712] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DXFn1iyFXrO/
+              - 'img "Há cerimônias que celebram um amor. E há aquelas que, por um instante raro, parecem abraçar o tempo inteiro de uma família. Quando uma surpresa assim acontece, o casamento deixa de ser só um marco para os noivos e se transforma em memória viva para todos que estão ali. É nesse tipo de delicadeza que mora a beleza do que fazemos: momentos que ninguém esperava, mas que todo mundo vai guardar para sempre. Na Fazenda do Rosa, cada celebração encontra seu próprio jeito de tocar o coração. Algumas pela paisagem. Outras pela história. E algumas, como essa, pela emoção de lembrar que o amor também atravessa gerações. #casamentonapraia #weddingdestinationbrasil #casamentointimista #destinationweddingbrasil #fazendadorosa" [ref=e713]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e618]:
+            - link "O dia em que meu sonho ganhou vida…❤️ sameday | @roslenfilms Clipe" [ref=e714] [cursor=pointer]:
+              - /url: /nicsanabria/reel/DXFAWL5DovU/
+              - img "O dia em que meu sonho ganhou vida…❤️ sameday | @roslenfilms" [ref=e715]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Há lugares que não se explicam pelo que mostram, mas pelo que despertam. O Rosa nasceu assim: entre gestos simples, encontros verdadeiros e uma beleza que nunca precisou chamar atenção para ser inesquecível. Talvez seja isso que o tempo não consegue levar daqui. Essa sensação de acolhimento profundo, de humanidade viva, de um cotidiano costurado por delicadeza. Quem viveu o começo guarda no coração; quem chega hoje ainda sente, de algum jeito, que existe uma memória antiga soprando no vento. No Rosa, algumas coisas mudam com os anos. Outras seguem intactas: a capacidade rara de transformar instantes comuns em lembranças que ficam para sempre. #fazendadorosa #praiadorosa #memoriaafetiva #naturezaquecurа #historiasqueresistem Clipe" [ref=e716] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DXCMpghjTQ3/
+              - 'img "Há lugares que não se explicam pelo que mostram, mas pelo que despertam. O Rosa nasceu assim: entre gestos simples, encontros verdadeiros e uma beleza que nunca precisou chamar atenção para ser inesquecível. Talvez seja isso que o tempo não consegue levar daqui. Essa sensação de acolhimento profundo, de humanidade viva, de um cotidiano costurado por delicadeza. Quem viveu o começo guarda no coração; quem chega hoje ainda sente, de algum jeito, que existe uma memória antiga soprando no vento. No Rosa, algumas coisas mudam com os anos. Outras seguem intactas: a capacidade rara de transformar instantes comuns em lembranças que ficam para sempre. #fazendadorosa #praiadorosa #memoriaafetiva #naturezaquecurа #historiasqueresistem" [ref=e717]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "João carrega a gastronomia desde cedo, quase como quem carrega uma memória de família no corpo. Entre a padaria dos avós, o olhar atento da avó professora e a inspiração dos irmãos chefs, foi ali, no cotidiano mais simples, que nasceu a sua relação com a cozinha: primeiro como encanto, depois como ofício, e hoje como assinatura. No Altamare, essa história ganha forma em pratos que unem técnica, sensibilidade e identidade. É ele quem cria os sabores que chegam à mesa do restaurante e também assina os cardápios dos casamentos da Fazenda do Rosa — menus pensados para marcar momentos e permanecer na lembrança. Porque, no fim, cozinhar assim é isso: transformar origem, afeto e repertório em experiência. #altamare #gastronomiadeautor #fazendadorosa #buffetdecasamento Clipe" [ref=e718] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DW4pEA1D5c2/
+              - 'img "João carrega a gastronomia desde cedo, quase como quem carrega uma memória de família no corpo. Entre a padaria dos avós, o olhar atento da avó professora e a inspiração dos irmãos chefs, foi ali, no cotidiano mais simples, que nasceu a sua relação com a cozinha: primeiro como encanto, depois como ofício, e hoje como assinatura. No Altamare, essa história ganha forma em pratos que unem técnica, sensibilidade e identidade. É ele quem cria os sabores que chegam à mesa do restaurante e também assina os cardápios dos casamentos da Fazenda do Rosa — menus pensados para marcar momentos e permanecer na lembrança. Porque, no fim, cozinhar assim é isso: transformar origem, afeto e repertório em experiência. #altamare #gastronomiadeautor #fazendadorosa #buffetdecasamento" [ref=e719]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e634]:
+            - 'link "Com a palavra: El poeta del mar: Capitão David! Há 30 anos, a história dele se mistura com a da Praia do Rosa e com a cultura do surf que ajudou a desenhar este lugar. Muita gente viveu a primeira onda sob a sua orientação; outros tantos seguem, todos os dias, desbravando o mar sob o seu olhar. Mais do que ensinar a ficar em pé na prancha, o Capitão ensina a escutar o oceano, a respeitar o tempo da onda e a entender que o surf, por aqui, sempre foi também uma forma de viver. No Rosa, o mar educa — e o David é um dos grandes tradutores dessa linguagem Para nós, apoiar quem vive o mar de perto e faz parte da nossa origem é o que garante que a tradição do surf continue sendo passada para cada geração que nos visita. #praiadorosa #surfbrasil #fazendadorosa #turismoemsc #vidanomar Clipe" [ref=e720] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DWpN78GDhpF/
+              - 'img "Com a palavra: El poeta del mar: Capitão David! Há 30 anos, a história dele se mistura com a da Praia do Rosa e com a cultura do surf que ajudou a desenhar este lugar. Muita gente viveu a primeira onda sob a sua orientação; outros tantos seguem, todos os dias, desbravando o mar sob o seu olhar. Mais do que ensinar a ficar em pé na prancha, o Capitão ensina a escutar o oceano, a respeitar o tempo da onda e a entender que o surf, por aqui, sempre foi também uma forma de viver. No Rosa, o mar educa — e o David é um dos grandes tradutores dessa linguagem Para nós, apoiar quem vive o mar de perto e faz parte da nossa origem é o que garante que a tradição do surf continue sendo passada para cada geração que nos visita. #praiadorosa #surfbrasil #fazendadorosa #turismoemsc #vidanomar" [ref=e721]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Cada casal chega com uma história única — e é assim que gostamos de receber por aqui. Na Fazenda do Rosa, atendimento personalizado, família reunida na hospedagem e o mar sempre por perto fazem desse dia algo ainda mais especial. Talvez seja esse o nosso maior diferencial: transformar beleza em pertencimento, e um casamento em memória para a vida inteira. #fazendadorosa #casamentonapraia #praiadorosa #weddingdestination Clipe" [ref=e722] [cursor=pointer]':
+              - /url: /fazendadorosa/reel/DWhhRYkGTye/
+              - 'img "Cada casal chega com uma história única — e é assim que gostamos de receber por aqui. Na Fazenda do Rosa, atendimento personalizado, família reunida na hospedagem e o mar sempre por perto fazem desse dia algo ainda mais especial. Talvez seja esse o nosso maior diferencial: transformar beleza em pertencimento, e um casamento em memória para a vida inteira. #fazendadorosa #casamentonapraia #praiadorosa #weddingdestination" [ref=e723]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e646]:
+          - link "Ver mais posts" [ref=e648] [cursor=pointer]:
+            - /url: /fazendadorosa/
+            - generic [ref=e649]: Ver mais posts
+          - separator [ref=e650]
+  - contentinfo [ref=e651]:
+    - generic [ref=e652]:
+      - generic [ref=e654]:
+        - link "Meta" [ref=e656] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e657]: Meta
+        - link "Sobre" [ref=e659] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e660]: Sobre
+        - link "Blog" [ref=e662] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e663]: Blog
+        - link "Carreiras" [ref=e665] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e666]: Carreiras
+        - link "Ajuda" [ref=e668] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e669]: Ajuda
+        - link "API" [ref=e671] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e672]: API
+        - link "Privacidade" [ref=e674] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e675]: Privacidade
+        - link "Termos" [ref=e677] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e678]: Termos
+        - link "Localizações" [ref=e680] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e681]: Localizações
+        - link "Instagram Lite" [ref=e683] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e684]: Instagram Lite
+        - link "Meta AI" [ref=e686] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e687]: Meta AI
+        - link "Threads" [ref=e689] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e690]: Threads
+        - link "Upload de contatos e não usuários" [ref=e692] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e693]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e695] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e696]: Meta Verified
+      - generic [ref=e697]:
+        - generic [ref=e698] [cursor=pointer]:
+          - generic [ref=e699]:
+            - generic [ref=e700]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e703]
+          - combobox "Trocar idioma de exibição" [ref=e705]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e707]: © 2026 Instagram from Meta

@@ -1,0 +1,75 @@
+id: "carrossel-imoveis"
+name: "Squad de Carrosséis Imobiliários"
+version: "1.0"
+created: "2026-04-15"
+
+description: >
+  Squad especializado em produzir carrosséis virais para Instagram do mercado imobiliário
+  de Maceió. Pesquisa tendências reais, cria copy jornalística com dados verificados e
+  gera HTML pronto para captura — com aprovação do usuário em cada etapa crítica.
+
+domain: "content"
+niche: "mercado imobiliário / Maceió, Alagoas"
+platform: "Instagram (carrossel 1080×1350px)"
+
+audience:
+  primary: "Compradores de imóveis em Maceió (primeira e segunda aquisição)"
+  secondary: "Investidores imobiliários buscando diversificação patrimonial"
+
+tone:
+  primary: "Jornalístico consultivo"
+  secondary: "Educativo empoderador"
+  never: "Motivacional / coach / vendas diretas"
+
+brand:
+  name: "Jarvis Inteligência Imobiliária"
+  handle: "@jarvisimoveis.br"
+  font: "Montserrat"
+  colors:
+    navy: "#1B2A4A"
+    dark: "#0D1B2A"
+    light: "#F5F0E8"
+    gold: "#C9A84C"
+
+agents:
+  - id: "tiago-tendencias"
+    file: "agents/tiago-tendencias.agent.md"
+    execution: "subagent"
+    steps: [2]
+
+  - id: "carlos-carrossel"
+    file: "agents/carlos-carrossel.agent.md"
+    execution: "inline"
+    steps: [4, 6, 8]
+
+  - id: "vera-veredito"
+    file: "agents/vera-veredito.agent.md"
+    execution: "inline"
+    steps: [9]
+
+pipeline:
+  file: "pipeline/pipeline.yaml"
+  total_steps: 10
+  checkpoints: [1, 3, 5, 7, 10]
+  key_checkpoint: 7  # Aprovação de copy ANTES do HTML
+
+skills:
+  - "carrossel-infinito"
+
+output_dir: "output/"
+memory_dir: "_memory/"
+
+investigation:
+  profiles:
+    - handle: "@mundodatastore"
+      platform: "instagram"
+      analysis: "_investigations/mundodatastore/pattern-analysis.md"
+      consolidated: "_investigations/consolidated-analysis.md"
+
+data_files:
+  - "pipeline/data/research-brief.md"
+  - "pipeline/data/domain-framework.md"
+  - "pipeline/data/tone-of-voice.md"
+  - "pipeline/data/quality-criteria.md"
+  - "pipeline/data/anti-patterns.md"
+  - "pipeline/data/output-examples.md"

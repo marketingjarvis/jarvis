@@ -1,0 +1,573 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDTqAJggD97X%2F%3Fimg_index%3D3&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de h1editora" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de h1editora" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de h1editora
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - img [ref=e89]
+              - listitem [ref=e91]:
+                - img [ref=e98]
+              - listitem [ref=e100]:
+                - img [ref=e107]
+            - button [ref=e109] [cursor=pointer]
+            - button [ref=e111] [cursor=pointer]
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - button "Foto do perfil de h1editora" [disabled] [ref=e118]:
+              - link "Foto do perfil de h1editora" [disabled] [ref=e120] [cursor=pointer]:
+                - img "Foto do perfil de h1editora" [ref=e121]
+            - generic [ref=e124]:
+              - generic [ref=e126]:
+                - link "h1editora" [ref=e128] [cursor=pointer]:
+                  - /url: /h1editora/
+                  - generic [ref=e131]: h1editora
+                - img "Verificado" [ref=e133]
+              - generic [ref=e135]:
+                - generic [ref=e137]: •
+                - button "Seguir" [ref=e138] [cursor=pointer]
+            - button "Mais opções" [ref=e141] [cursor=pointer]:
+              - img "Mais opções" [ref=e144]
+          - separator [ref=e148]
+          - generic [ref=e150]:
+            - generic [ref=e152]:
+              - link "Foto do perfil de h1editora" [ref=e154] [cursor=pointer]:
+                - /url: /h1editora/
+                - img "Foto do perfil de h1editora" [ref=e155]
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - link "h1editora Verificado" [ref=e161] [cursor=pointer]:
+                    - /url: /h1editora/
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: h1editora
+                      - img "Verificado" [ref=e166]
+                  - time [ref=e169]: 12 sem
+                - generic [ref=e170]:
+                  - text: Quantos dos seus hábitos diários foram realmente escolhidos por você — e quantos foram vendidos para você?
+                  - text: A Gillette provou que é possível transformar algo inexistente em obrigação social. Basta ter a estratégia certa e tempo suficiente.
+                  - text: E você? Já parou para questionar quais “necessidades” da sua vida foram criadas pelo marketing?
+            - button "Carregar mais comentários" [ref=e172] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e174]
+            - generic [ref=e176]:
+              - generic [ref=e179]:
+                - link "Foto do perfil de pri.cavalcante96" [ref=e182] [cursor=pointer]:
+                  - /url: /pri.cavalcante96/
+                  - img "Foto do perfil de pri.cavalcante96" [ref=e183]
+                - generic [ref=e185]:
+                  - generic [ref=e187]:
+                    - generic [ref=e188]:
+                      - link "pri.cavalcante96" [ref=e190] [cursor=pointer]:
+                        - /url: /pri.cavalcante96/
+                        - generic [ref=e193]: pri.cavalcante96
+                      - link "6 d" [ref=e195] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18578550328013249/
+                        - time [ref=e196]: 6 d
+                    - generic [ref=e198]: Obrigada, Gillette (pq o problema sempre existiu) e ao laser definitivo que é muito melhor 💞
+                  - generic [ref=e199]:
+                    - button "1 curtida" [ref=e200] [cursor=pointer]:
+                      - generic [ref=e202]: 1 curtida
+                    - button "Responder" [ref=e203] [cursor=pointer]:
+                      - generic [ref=e205]: Responder
+              - generic [ref=e208]:
+                - link "Foto do perfil de diego_goms" [ref=e211] [cursor=pointer]:
+                  - /url: /diego_goms/
+                  - img "Foto do perfil de diego_goms" [ref=e212]
+                - generic [ref=e214]:
+                  - generic [ref=e216]:
+                    - generic [ref=e217]:
+                      - link "diego_goms" [ref=e219] [cursor=pointer]:
+                        - /url: /diego_goms/
+                        - generic [ref=e222]: diego_goms
+                      - link "1 sem" [ref=e224] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18186850639369711/
+                        - time [ref=e225]: 1 sem
+                    - generic [ref=e227]: Se for seguir essa lógica, tomar banho é consequência da industria do sabonete, escovar os dentes da colgate, protetor solar e maquiagem da industria de cosméticos…
+                  - generic [ref=e228]:
+                    - button "2 curtidas" [ref=e229] [cursor=pointer]:
+                      - generic [ref=e231]: 2 curtidas
+                    - button "Responder" [ref=e232] [cursor=pointer]:
+                      - generic [ref=e234]: Responder
+              - generic [ref=e237]:
+                - link "Foto do perfil de rute20162024" [ref=e240] [cursor=pointer]:
+                  - /url: /rute20162024/
+                  - img "Foto do perfil de rute20162024" [ref=e241]
+                - generic [ref=e243]:
+                  - generic [ref=e245]:
+                    - generic [ref=e246]:
+                      - link "rute20162024" [ref=e248] [cursor=pointer]:
+                        - /url: /rute20162024/
+                        - generic [ref=e251]: rute20162024
+                      - link "2 sem" [ref=e253] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18093347219037530/
+                        - time [ref=e254]: 2 sem
+                    - generic [ref=e256]: Gillette, não tenho palavras pra lhe agradecer o suficiente!
+                  - generic [ref=e257]:
+                    - button "1 curtida" [ref=e258] [cursor=pointer]:
+                      - generic [ref=e260]: 1 curtida
+                    - button "Responder" [ref=e261] [cursor=pointer]:
+                      - generic [ref=e263]: Responder
+              - generic [ref=e266]:
+                - link "Foto do perfil de debby_rios" [ref=e269] [cursor=pointer]:
+                  - /url: /debby_rios/
+                  - img "Foto do perfil de debby_rios" [ref=e270]
+                - generic [ref=e272]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - link "debby_rios" [ref=e277] [cursor=pointer]:
+                        - /url: /debby_rios/
+                        - generic [ref=e280]: debby_rios
+                      - link "2 sem" [ref=e282] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18126542764502629/
+                        - time [ref=e283]: 2 sem
+                    - generic [ref=e285]: Muito obrigado, Gillette 🙏🏻 ❤️
+                  - generic [ref=e286]:
+                    - button "3 curtidas" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e289]: 3 curtidas
+                    - button "Responder" [ref=e290] [cursor=pointer]:
+                      - generic [ref=e292]: Responder
+              - generic [ref=e295]:
+                - link "Foto do perfil de henriqt_" [ref=e298] [cursor=pointer]:
+                  - /url: /henriqt_/
+                  - img "Foto do perfil de henriqt_" [ref=e299]
+                - generic [ref=e301]:
+                  - generic [ref=e303]:
+                    - generic [ref=e304]:
+                      - link "henriqt_" [ref=e306] [cursor=pointer]:
+                        - /url: /henriqt_/
+                        - generic [ref=e309]: henriqt_
+                      - link "6 sem" [ref=e311] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/17868341955568878/
+                        - time [ref=e312]: 6 sem
+                    - generic [ref=e314]: Obrigado Gilette! Nós homens amamos você. Usem Gilette mulheres.
+                  - generic [ref=e315]:
+                    - button "20 curtidas" [ref=e316] [cursor=pointer]:
+                      - generic [ref=e318]: 20 curtidas
+                    - button "Responder" [ref=e319] [cursor=pointer]:
+                      - generic [ref=e321]: Responder
+              - generic [ref=e324]:
+                - link "Foto do perfil de vanicleia_artes_em_biscuit" [ref=e327] [cursor=pointer]:
+                  - /url: /vanicleia_artes_em_biscuit/
+                  - img "Foto do perfil de vanicleia_artes_em_biscuit" [ref=e328]
+                - generic [ref=e330]:
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - link "vanicleia_artes_em_biscuit" [ref=e335] [cursor=pointer]:
+                        - /url: /vanicleia_artes_em_biscuit/
+                        - generic [ref=e338]: vanicleia_artes_em_biscuit
+                      - link "7 sem" [ref=e340] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18082169738249723/
+                        - time [ref=e341]: 7 sem
+                    - generic [ref=e343]: Vejamos... antes as mulheres nao mostravam pelos por causa das roupas... daí elas começaram a mostraram as pernas, mas usavam meias! Por quê? Porque usavam meias? Usar meias fazia o visual lisinho ser mais bonito e delicado a gilete era uma outra opção para estar delicada, uma opção mais barata também.
+                  - generic [ref=e344]:
+                    - button "21 curtidas" [ref=e345] [cursor=pointer]:
+                      - generic [ref=e347]: 21 curtidas
+                    - button "Responder" [ref=e348] [cursor=pointer]:
+                      - generic [ref=e350]: Responder
+              - generic [ref=e353]:
+                - link "Foto do perfil de thirxch" [ref=e356] [cursor=pointer]:
+                  - /url: /thirxch/
+                  - img "Foto do perfil de thirxch" [ref=e357]
+                - generic [ref=e359]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]:
+                      - link "thirxch" [ref=e364] [cursor=pointer]:
+                        - /url: /thirxch/
+                        - generic [ref=e367]: thirxch
+                      - link "8 sem" [ref=e369] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/17973092235004780/
+                        - time [ref=e370]: 8 sem
+                    - generic [ref=e372]: parabéns pelo designer, que capa foooda
+                  - generic [ref=e373]:
+                    - button "Curtir" [ref=e374] [cursor=pointer]:
+                      - generic [ref=e375]: Curtir
+                    - button "Responder" [ref=e376] [cursor=pointer]:
+                      - generic [ref=e378]: Responder
+              - generic [ref=e381]:
+                - link "Foto do perfil de _tarci0" [ref=e384] [cursor=pointer]:
+                  - /url: /_tarci0/
+                  - img "Foto do perfil de _tarci0" [ref=e385]
+                - generic [ref=e387]:
+                  - generic [ref=e389]:
+                    - generic [ref=e390]:
+                      - link "_tarci0" [ref=e392] [cursor=pointer]:
+                        - /url: /_tarci0/
+                        - generic [ref=e395]: _tarci0
+                      - link "8 sem" [ref=e397] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18123203755560239/
+                        - time [ref=e398]: 8 sem
+                    - generic [ref=e400]: A Gillette ou a moda? A Gillette apenas foi malandra
+                  - generic [ref=e401]:
+                    - button "4 curtidas" [ref=e402] [cursor=pointer]:
+                      - generic [ref=e404]: 4 curtidas
+                    - button "Responder" [ref=e405] [cursor=pointer]:
+                      - generic [ref=e407]: Responder
+              - generic [ref=e410]:
+                - link "Foto do perfil de edilops" [ref=e413] [cursor=pointer]:
+                  - /url: /edilops/
+                  - img "Foto do perfil de edilops" [ref=e414]
+                - generic [ref=e416]:
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - link "edilops" [ref=e421] [cursor=pointer]:
+                        - /url: /edilops/
+                        - generic [ref=e424]: edilops
+                      - link "11 sem" [ref=e426] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18089590370280589/
+                        - time [ref=e427]: 11 sem
+                    - generic [ref=e429]: Então eh a Gillette que devemos agradecer? 😂😂😂😂😂
+                  - generic [ref=e430]:
+                    - button "38 curtidas" [ref=e431] [cursor=pointer]:
+                      - generic [ref=e433]: 38 curtidas
+                    - button "Responder" [ref=e434] [cursor=pointer]:
+                      - generic [ref=e436]: Responder
+              - generic [ref=e439]:
+                - link "Foto do perfil de portfolio.philomena" [ref=e442] [cursor=pointer]:
+                  - /url: /portfolio.philomena/
+                  - img "Foto do perfil de portfolio.philomena" [ref=e443]
+                - generic [ref=e445]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]:
+                      - link "portfolio.philomena" [ref=e450] [cursor=pointer]:
+                        - /url: /portfolio.philomena/
+                        - generic [ref=e453]: portfolio.philomena
+                      - link "11 sem" [ref=e455] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18109551118649398/
+                        - time [ref=e456]: 11 sem
+                    - generic [ref=e458]: sensacional
+                  - generic [ref=e459]:
+                    - button "Curtir" [ref=e460] [cursor=pointer]:
+                      - generic [ref=e461]: Curtir
+                    - button "Responder" [ref=e462] [cursor=pointer]:
+                      - generic [ref=e464]: Responder
+              - generic [ref=e467]:
+                - link "Foto do perfil de oicamilacassiano" [ref=e470] [cursor=pointer]:
+                  - /url: /oicamilacassiano/
+                  - img "Foto do perfil de oicamilacassiano" [ref=e471]
+                - generic [ref=e473]:
+                  - generic [ref=e475]:
+                    - generic [ref=e476]:
+                      - link "oicamilacassiano" [ref=e478] [cursor=pointer]:
+                        - /url: /oicamilacassiano/
+                        - generic [ref=e481]: oicamilacassiano
+                      - link "12 sem" [ref=e483] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18549689158059156/
+                        - time [ref=e484]: 12 sem
+                    - generic [ref=e486]: Ja vi essa postagem aqui antes
+                  - generic [ref=e487]:
+                    - button "Curtir" [ref=e488] [cursor=pointer]:
+                      - generic [ref=e489]: Curtir
+                    - button "Responder" [ref=e490] [cursor=pointer]:
+                      - generic [ref=e492]: Responder
+              - generic [ref=e495]:
+                - link "Foto do perfil de onovomercado" [ref=e498] [cursor=pointer]:
+                  - /url: /onovomercado/
+                  - img "Foto do perfil de onovomercado" [ref=e499]
+                - generic [ref=e501]:
+                  - generic [ref=e503]:
+                    - generic [ref=e504]:
+                      - link "onovomercado Verificado" [ref=e506] [cursor=pointer]:
+                        - /url: /onovomercado/
+                        - generic [ref=e508]:
+                          - generic [ref=e509]: onovomercado
+                          - img "Verificado" [ref=e511]
+                      - link "12 sem" [ref=e514] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/17873432844412943/
+                        - time [ref=e515]: 12 sem
+                    - generic [ref=e517]: 👏👏👏👏👏
+                  - generic [ref=e518]:
+                    - button "2 curtidas" [ref=e519] [cursor=pointer]:
+                      - generic [ref=e521]: 2 curtidas
+                    - button "Responder" [ref=e522] [cursor=pointer]:
+                      - generic [ref=e524]: Responder
+              - generic [ref=e527]:
+                - link "Foto do perfil de mislene_pessoal" [ref=e530] [cursor=pointer]:
+                  - /url: /mislene_pessoal/
+                  - img "Foto do perfil de mislene_pessoal" [ref=e531]
+                - generic [ref=e533]:
+                  - generic [ref=e535]:
+                    - generic [ref=e536]:
+                      - link "mislene_pessoal" [ref=e538] [cursor=pointer]:
+                        - /url: /mislene_pessoal/
+                        - generic [ref=e541]: mislene_pessoal
+                      - link "12 sem" [ref=e543] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/18051635258453884/
+                        - time [ref=e544]: 12 sem
+                    - generic [ref=e546]: Que máximo essa postagem!
+                  - generic [ref=e547]:
+                    - button "2 curtidas" [ref=e548] [cursor=pointer]:
+                      - generic [ref=e550]: 2 curtidas
+                    - button "Responder" [ref=e551] [cursor=pointer]:
+                      - generic [ref=e553]: Responder
+              - generic [ref=e556]:
+                - link "Foto do perfil de pedroactiss" [ref=e559] [cursor=pointer]:
+                  - /url: /pedroactiss/
+                  - img "Foto do perfil de pedroactiss" [ref=e560]
+                - generic [ref=e562]:
+                  - generic [ref=e564]:
+                    - generic [ref=e565]:
+                      - link "pedroactiss Verificado" [ref=e567] [cursor=pointer]:
+                        - /url: /pedroactiss/
+                        - generic [ref=e569]:
+                          - generic [ref=e570]: pedroactiss
+                          - img "Verificado" [ref=e572]
+                      - link "12 sem" [ref=e575] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/17996043506896861/
+                        - time [ref=e576]: 12 sem
+                    - generic [ref=e578]: Arquitetura de receita, traduzam ❤️
+                  - generic [ref=e579]:
+                    - button "1 curtida" [ref=e580] [cursor=pointer]:
+                      - generic [ref=e582]: 1 curtida
+                    - button "Responder" [ref=e583] [cursor=pointer]:
+                      - generic [ref=e585]: Responder
+              - generic [ref=e588]:
+                - link "Foto do perfil de bergmanbyroger" [ref=e591] [cursor=pointer]:
+                  - /url: /bergmanbyroger/
+                  - img "Foto do perfil de bergmanbyroger" [ref=e592]
+                - generic [ref=e594]:
+                  - generic [ref=e596]:
+                    - generic [ref=e597]:
+                      - link "bergmanbyroger Verificado" [ref=e599] [cursor=pointer]:
+                        - /url: /bergmanbyroger/
+                        - generic [ref=e601]:
+                          - generic [ref=e602]: bergmanbyroger
+                          - img "Verificado" [ref=e604]
+                      - link "12 sem" [ref=e607] [cursor=pointer]:
+                        - /url: /p/DTqAJggD97X/c/17927285769198073/
+                        - time [ref=e608]: 12 sem
+                    - generic [ref=e610]: 👏👏👏👏👏
+                  - generic [ref=e611]:
+                    - button "2 curtidas" [ref=e612] [cursor=pointer]:
+                      - generic [ref=e614]: 2 curtidas
+                    - button "Responder" [ref=e615] [cursor=pointer]:
+                      - generic [ref=e617]: Responder
+              - progressbar [ref=e620]:
+                - img "Carregando..." [ref=e621]
+          - generic [ref=e634]:
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - button "Curtir" [ref=e639] [cursor=pointer]:
+                  - img "Curtir" [ref=e642]
+                - button "1,9 mil" [ref=e644] [cursor=pointer]
+                - button "Comentar" [ref=e646] [cursor=pointer]:
+                  - img "Comentar" [ref=e648]
+                - button "30" [ref=e650] [cursor=pointer]
+                - button "Compartilhar" [ref=e651] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e652]
+              - button "Salvar" [ref=e656] [cursor=pointer]:
+                - img "Salvar" [ref=e658]
+            - link "18 de janeiro" [ref=e662] [cursor=pointer]:
+              - /url: /h1editora/p/DTqAJggD97X/
+              - time [ref=e664]: 18 de janeiro
+          - generic [ref=e669]:
+            - link "Entrar" [ref=e670] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDTqAJggD97X%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e672]
+      - generic [ref=e673]:
+        - generic [ref=e675]:
+          - text: Mais posts de
+          - link "h1editora" [ref=e676] [cursor=pointer]:
+            - /url: /h1editora/
+        - generic [ref=e679]:
+          - generic [ref=e680]:
+            - link "Carrossel" [ref=e682] [cursor=pointer]:
+              - /url: /h1editora/p/DXIMCWpkZmB/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e687] [cursor=pointer]:
+              - /url: /h1editora/reel/DXFnul_kdKm/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e692] [cursor=pointer]:
+              - /url: /h1editora/p/DXCS9LAkbZ5/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e696]:
+            - link "Carrossel" [ref=e698] [cursor=pointer]:
+              - /url: /h1editora/p/DW95cKUka_G/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e703] [cursor=pointer]:
+              - /url: /h1editora/reel/DW7UopABXHv/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e708] [cursor=pointer]:
+              - /url: /h1editora/p/DW4vws0kSMG/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e712]:
+            - link "Clipe" [ref=e714] [cursor=pointer]:
+              - /url: /h1editora/reel/DW2K-_-BzwL/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e719] [cursor=pointer]:
+              - /url: /h1editora/p/DWzmz6rkV53/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Carrossel" [ref=e724] [cursor=pointer]:
+              - /url: /h1editora/p/DWwRWGWEWqc/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+        - generic [ref=e728]:
+          - link "Ver mais posts" [ref=e730] [cursor=pointer]:
+            - /url: /h1editora/
+            - generic [ref=e731]: Ver mais posts
+          - separator [ref=e732]
+  - contentinfo [ref=e733]:
+    - generic [ref=e734]:
+      - generic [ref=e736]:
+        - link "Meta" [ref=e738] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e739]: Meta
+        - link "Sobre" [ref=e741] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e742]: Sobre
+        - link "Blog" [ref=e744] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e745]: Blog
+        - link "Carreiras" [ref=e747] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e748]: Carreiras
+        - link "Ajuda" [ref=e750] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e751]: Ajuda
+        - link "API" [ref=e753] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e754]: API
+        - link "Privacidade" [ref=e756] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e757]: Privacidade
+        - link "Termos" [ref=e759] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e760]: Termos
+        - link "Localizações" [ref=e762] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e763]: Localizações
+        - link "Instagram Lite" [ref=e765] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e766]: Instagram Lite
+        - link "Meta AI" [ref=e768] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e769]: Meta AI
+        - link "Threads" [ref=e771] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e772]: Threads
+        - link "Upload de contatos e não usuários" [ref=e774] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e775]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e777] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e778]: Meta Verified
+      - generic [ref=e779]:
+        - generic [ref=e780] [cursor=pointer]:
+          - generic [ref=e781]:
+            - generic [ref=e782]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e785]
+          - combobox "Trocar idioma de exibição" [ref=e787]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e789]: © 2026 Instagram from Meta

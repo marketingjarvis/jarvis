@@ -1,0 +1,358 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDWkGF_RATum%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de xpinvestimentos" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de xpinvestimentos" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de xpinvestimentos
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - img [ref=e89]
+              - listitem [ref=e91]:
+                - img [ref=e98]
+            - button [ref=e100] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - button "Foto do perfil de xpinvestimentos" [disabled] [ref=e107]:
+              - link "Foto do perfil de xpinvestimentos" [disabled] [ref=e109] [cursor=pointer]:
+                - img "Foto do perfil de xpinvestimentos" [ref=e110]
+            - generic [ref=e113]:
+              - generic [ref=e115]:
+                - link "xpinvestimentos" [ref=e117] [cursor=pointer]:
+                  - /url: /xpinvestimentos/
+                  - generic [ref=e120]: xpinvestimentos
+                - img "Verificado" [ref=e122]
+              - generic [ref=e124]:
+                - generic [ref=e126]: •
+                - button "Seguir" [ref=e127] [cursor=pointer]
+            - button "Mais opções" [ref=e130] [cursor=pointer]:
+              - img "Mais opções" [ref=e133]
+          - separator [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - link "Foto do perfil de xpinvestimentos" [ref=e143] [cursor=pointer]:
+                - /url: /xpinvestimentos/
+                - img "Foto do perfil de xpinvestimentos" [ref=e144]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - link "xpinvestimentos Verificado" [ref=e150] [cursor=pointer]:
+                    - /url: /xpinvestimentos/
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: xpinvestimentos
+                      - img "Verificado" [ref=e155]
+                  - generic [ref=e157]: Editado
+                  - generic [ref=e158]: •
+                  - time [ref=e160]: 1 sem
+                - generic [ref=e161]:
+                  - text: Será que o modelo Transacional faz sentido pra você?
+                  - text: Arraste para o lado e descubra.
+                  - text: Se já é cliente, fale com seu assessor.
+                  - text: Se não, pergunte à sua instituição por que ela não oferece todas as opções.
+            - button "Carregar mais comentários" [ref=e163] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e165]
+            - generic [ref=e167]:
+              - generic [ref=e170]:
+                - link "Foto do perfil de julietasimao30" [ref=e173] [cursor=pointer]:
+                  - /url: /julietasimao30/
+                  - img "Foto do perfil de julietasimao30" [ref=e174]
+                - generic [ref=e176]:
+                  - generic [ref=e178]:
+                    - generic [ref=e179]:
+                      - link "julietasimao30" [ref=e181] [cursor=pointer]:
+                        - /url: /julietasimao30/
+                        - generic [ref=e184]: julietasimao30
+                      - link "3 d" [ref=e186] [cursor=pointer]:
+                        - /url: /p/DWkGF_RATum/c/17990056517957740/
+                        - time [ref=e187]: 3 d
+                    - generic [ref=e189]: Cuidado! XP me deu o maior calote! Apliquei mais de $1.000.000, em conta da operadora, e meu dinheiro derreteu. Estou processando, na justiça, essa “investidora” .
+                  - generic [ref=e190]:
+                    - button "Curtir" [ref=e191] [cursor=pointer]:
+                      - generic [ref=e192]: Curtir
+                    - button "Responder" [ref=e193] [cursor=pointer]:
+                      - generic [ref=e195]: Responder
+              - generic [ref=e198]:
+                - link "Foto do perfil de massaoplanejador" [ref=e201] [cursor=pointer]:
+                  - /url: /massaoplanejador/
+                  - img "Foto do perfil de massaoplanejador" [ref=e202]
+                - generic [ref=e204]:
+                  - generic [ref=e206]:
+                    - generic [ref=e207]:
+                      - link "massaoplanejador" [ref=e209] [cursor=pointer]:
+                        - /url: /massaoplanejador/
+                        - generic [ref=e212]: massaoplanejador
+                      - link "3 d" [ref=e214] [cursor=pointer]:
+                        - /url: /p/DWkGF_RATum/c/18006804668888081/
+                        - time [ref=e215]: 3 d
+                    - generic [ref=e217]:
+                      - text: Na verdade, o modelo TRANSACIONAL tem por característica a TRANSAÇÃO de PRODUTOS, como cada produto gera uma comissão diferente, incentiva o assessor a oferecer o que paga mais comissão. Embora um modelo mais “transparente” depois da resolução 179 da CVM, ainda é muito distante do modelo FIDUCIÁRIO.
+                      - text: No final, seja qual for a corretora, o que vale mesmo é a confiança e os valores na relação entre o profissional e o cliente.
+                  - generic [ref=e218]:
+                    - button "Curtir" [ref=e219] [cursor=pointer]:
+                      - generic [ref=e220]: Curtir
+                    - button "Responder" [ref=e221] [cursor=pointer]:
+                      - generic [ref=e223]: Responder
+              - generic [ref=e226]:
+                - link "Foto do perfil de tolentinowallaceleonardo" [ref=e229] [cursor=pointer]:
+                  - /url: /tolentinowallaceleonardo/
+                  - img "Foto do perfil de tolentinowallaceleonardo" [ref=e230]
+                - generic [ref=e232]:
+                  - generic [ref=e234]:
+                    - generic [ref=e235]:
+                      - link "tolentinowallaceleonardo" [ref=e237] [cursor=pointer]:
+                        - /url: /tolentinowallaceleonardo/
+                        - generic [ref=e240]: tolentinowallaceleonardo
+                      - link "1 sem" [ref=e242] [cursor=pointer]:
+                        - /url: /p/DWkGF_RATum/c/17858286324628382/
+                        - time [ref=e243]: 1 sem
+                    - generic [ref=e245]: Não apliquem dinheiro na XP, pois também estou tendo problemas no resgate de vários fundos da XP. Meu dinheiro tá bloqueado
+                  - generic [ref=e246]:
+                    - button "5 curtidas" [ref=e247] [cursor=pointer]:
+                      - generic [ref=e249]: 5 curtidas
+                    - button "Responder" [ref=e250] [cursor=pointer]:
+                      - generic [ref=e252]: Responder
+              - generic [ref=e255]:
+                - link "Foto do perfil de fabantunes" [ref=e258] [cursor=pointer]:
+                  - /url: /fabantunes/
+                  - img "Foto do perfil de fabantunes" [ref=e259]
+                - generic [ref=e261]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]:
+                      - link "fabantunes" [ref=e266] [cursor=pointer]:
+                        - /url: /fabantunes/
+                        - generic [ref=e269]: fabantunes
+                      - link "1 sem" [ref=e271] [cursor=pointer]:
+                        - /url: /p/DWkGF_RATum/c/18259177084291346/
+                        - time [ref=e272]: 1 sem
+                    - generic [ref=e274]: O que faz sentido pra mim é entender quando o dinheiro do saldo total some e nem o consultor sabe explicar !
+                  - generic [ref=e275]:
+                    - button "1 curtida" [ref=e276] [cursor=pointer]:
+                      - generic [ref=e278]: 1 curtida
+                    - button "Responder" [ref=e279] [cursor=pointer]:
+                      - generic [ref=e281]: Responder
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - button "Curtir" [ref=e287] [cursor=pointer]:
+                  - img "Curtir" [ref=e290]
+                - button "789" [ref=e292] [cursor=pointer]
+                - button "Comentar" [ref=e294] [cursor=pointer]:
+                  - img "Comentar" [ref=e296]
+                - button "12" [ref=e298] [cursor=pointer]
+                - button "Compartilhar" [ref=e299] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e300]
+              - button "Salvar" [ref=e304] [cursor=pointer]:
+                - img "Salvar" [ref=e306]
+            - link "31 de março" [ref=e310] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DWkGF_RATum/
+              - time [ref=e312]: 31 de março
+          - generic [ref=e317]:
+            - link "Entrar" [ref=e318] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDWkGF_RATum%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e320]
+      - generic [ref=e321]:
+        - generic [ref=e323]:
+          - text: Mais posts de
+          - link "xpinvestimentos" [ref=e324] [cursor=pointer]:
+            - /url: /xpinvestimentos/
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - link "Clipe" [ref=e330] [cursor=pointer]:
+              - /url: /guilhermebenchimol/reel/DXHnZ-1EZ1N/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e335] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DXHJtyYluD-/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e340] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DW7BVKsklGU/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e344]:
+            - link "Clipe" [ref=e346] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DW4QaYEkjzK/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e351] [cursor=pointer]:
+              - /url: /guilhermebenchimol/reel/DWyn4d0EWje/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e356] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DWoTzcpErhv/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e360]:
+            - link "Clipe" [ref=e362] [cursor=pointer]:
+              - /url: /xpinvestimentos/reel/DWlxzCdkjc9/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e367] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DWkGZu0ATiq/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Carrossel" [ref=e372] [cursor=pointer]:
+              - /url: /xpinvestimentos/p/DWkGRhtgdl5/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+        - generic [ref=e376]:
+          - link "Ver mais posts" [ref=e378] [cursor=pointer]:
+            - /url: /xpinvestimentos/
+            - generic [ref=e379]: Ver mais posts
+          - separator [ref=e380]
+  - contentinfo [ref=e381]:
+    - generic [ref=e382]:
+      - generic [ref=e384]:
+        - link "Meta" [ref=e386] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e387]: Meta
+        - link "Sobre" [ref=e389] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e390]: Sobre
+        - link "Blog" [ref=e392] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e393]: Blog
+        - link "Carreiras" [ref=e395] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e396]: Carreiras
+        - link "Ajuda" [ref=e398] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e399]: Ajuda
+        - link "API" [ref=e401] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e402]: API
+        - link "Privacidade" [ref=e404] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e405]: Privacidade
+        - link "Termos" [ref=e407] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e408]: Termos
+        - link "Localizações" [ref=e410] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e411]: Localizações
+        - link "Instagram Lite" [ref=e413] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e414]: Instagram Lite
+        - link "Meta AI" [ref=e416] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e417]: Meta AI
+        - link "Threads" [ref=e419] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e420]: Threads
+        - link "Upload de contatos e não usuários" [ref=e422] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e423]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e425] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e426]: Meta Verified
+      - generic [ref=e427]:
+        - generic [ref=e428] [cursor=pointer]:
+          - generic [ref=e429]:
+            - generic [ref=e430]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e433]
+          - combobox "Trocar idioma de exibição" [ref=e435]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e437]: © 2026 Instagram from Meta

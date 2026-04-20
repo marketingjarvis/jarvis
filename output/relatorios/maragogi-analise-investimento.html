@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maragogi — Análise de Investimento | JARVIS</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --laranja: #E94F1C;
+    --cinza: #687983;
+    --preto: #1D1D1B;
+    --branco: #FFFFFF;
+    --cinza-claro: #f4f5f6;
+    --cinza-medio: #e0e4e6;
+  }
+
+  body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: var(--preto);
+    background: var(--branco);
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  /* CAPA */
+  .capa {
+    background: var(--preto);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+
+  .capa::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 45%;
+    height: 100%;
+    background: var(--laranja);
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+    opacity: 0.95;
+  }
+
+  .capa::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -80px;
+    width: 300px; height: 300px;
+    border: 3px solid rgba(255,255,255,0.08);
+    border-radius: 50%;
+  }
+
+  .capa-header {
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo-nome {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--branco);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+
+  .logo-sub {
+    font-size: 9px;
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    margin-top: 4px;
+  }
+
+  .capa-content {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 0;
+  }
+
+  .capa-tag {
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--laranja);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .capa-titulo {
+    font-size: 62px;
+    font-weight: 900;
+    color: var(--branco);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .capa-subtitulo {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  .capa-linha {
+    width: 60px;
+    height: 3px;
+    background: var(--laranja);
+    margin-bottom: 30px;
+  }
+
+  .capa-descricao {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+    max-width: 420px;
+    line-height: 1.8;
+  }
+
+  .capa-footer {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .capa-footer-left {
+    font-size: 9px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .capa-footer-right {
+    font-size: 9px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  /* PÁGINAS INTERNAS */
+  .pagina {
+    padding: 50px 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    page-break-after: always;
+    position: relative;
+  }
+
+  .pagina:last-child {
+    page-break-after: auto;
+  }
+
+  /* Header de página */
+  .pagina-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--cinza-medio);
+  }
+
+  .pagina-logo {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--cinza);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .pagina-num {
+    font-size: 9px;
+    color: var(--cinza);
+    letter-spacing: 2px;
+  }
+
+  /* Seção */
+  .secao-tag {
+    font-size: 8px;
+    font-weight: 700;
+    color: var(--laranja);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .secao-titulo {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--preto);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+
+  .secao-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--cinza);
+    margin-bottom: 28px;
+  }
+
+  .linha-laranja {
+    width: 40px;
+    height: 3px;
+    background: var(--laranja);
+    margin-bottom: 28px;
+  }
+
+  /* Texto corrido */
+  p {
+    font-size: 11px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 14px;
+  }
+
+  strong {
+    font-weight: 700;
+    color: var(--preto);
+  }
+
+  /* Tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 28px;
+    font-size: 10px;
+  }
+
+  thead tr {
+    background: var(--preto);
+    color: var(--branco);
+  }
+
+  thead th {
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 9px;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--cinza-claro);
+  }
+
+  tbody tr:nth-child(odd) {
+    background: var(--branco);
+  }
+
+  tbody td {
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--cinza-medio);
+    color: #333;
+    line-height: 1.5;
+  }
+
+  tbody td:first-child {
+    font-weight: 600;
+    color: var(--preto);
+  }
+
+  .destaque-laranja {
+    color: var(--laranja);
+    font-weight: 700;
+  }
+
+  /* Cards de dados */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px 0 28px;
+  }
+
+  .cards-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 20px 0 28px;
+  }
+
+  .card {
+    background: var(--cinza-claro);
+    padding: 20px;
+    border-left: 4px solid var(--cinza-medio);
+  }
+
+  .card-laranja {
+    background: var(--laranja);
+    padding: 20px;
+    color: var(--branco);
+  }
+
+  .card-preto {
+    background: var(--preto);
+    padding: 20px;
+    color: var(--branco);
+  }
+
+  .card-numero {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .card-laranja .card-numero,
+  .card-preto .card-numero { color: var(--branco); }
+
+  .card-numero-destaque {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--laranja);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .card-label {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--cinza);
+    margin-bottom: 4px;
+  }
+
+  .card-laranja .card-label,
+  .card-preto .card-label {
+    color: rgba(255,255,255,0.65);
+  }
+
+  .card-desc {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  .card-laranja .card-desc,
+  .card-preto .card-desc { color: rgba(255,255,255,0.8); }
+
+  /* Timeline */
+  .timeline {
+    display: flex;
+    align-items: stretch;
+    margin: 20px 0 28px;
+    gap: 0;
+  }
+
+  .timeline-item {
+    flex: 1;
+    padding: 16px;
+    position: relative;
+    background: var(--cinza-claro);
+    border-right: 2px solid var(--branco);
+  }
+
+  .timeline-item:last-child {
+    border-right: none;
+    background: var(--laranja);
+    color: var(--branco);
+  }
+
+  .timeline-item:last-child .timeline-ano,
+  .timeline-item:last-child .timeline-desc {
+    color: rgba(255,255,255,0.9);
+  }
+
+  .timeline-item:last-child .timeline-label {
+    color: var(--branco);
+  }
+
+  .timeline-ano {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--laranja);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .timeline-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--preto);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+
+  .timeline-desc {
+    font-size: 9px;
+    color: var(--cinza);
+    line-height: 1.5;
+  }
+
+  /* Bloco de destaque */
+  .destaque-box {
+    background: var(--preto);
+    padding: 28px 32px;
+    margin: 24px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .destaque-box::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: var(--laranja);
+  }
+
+  .destaque-box p {
+    color: rgba(255,255,255,0.85);
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 0;
+  }
+
+  .destaque-box strong {
+    color: var(--laranja);
+  }
+
+  /* Lista de bullets */
+  .lista-bullets {
+    list-style: none;
+    margin: 12px 0 20px;
+  }
+
+  .lista-bullets li {
+    padding: 7px 0 7px 20px;
+    position: relative;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #333;
+    border-bottom: 1px solid var(--cinza-claro);
+  }
+
+  .lista-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--laranja);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  }
+
+  /* Comparação destinos */
+  .comp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .comp-card {
+    padding: 20px;
+    background: var(--cinza-claro);
+  }
+
+  .comp-card-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--cinza);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--cinza-medio);
+  }
+
+  .comp-card-title.destaque {
+    color: var(--laranja);
+    border-bottom-color: var(--laranja);
+  }
+
+  .comp-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-size: 9.5px;
+  }
+
+  .comp-item-label { color: var(--cinza); }
+  .comp-item-valor { font-weight: 700; color: var(--preto); }
+  .comp-item-valor.verde { color: #2ecc71; }
+  .comp-item-valor.laranja { color: var(--laranja); }
+  .comp-item-valor.vermelho { color: #e74c3c; }
+
+  /* Página de encerramento */
+  .pagina-encerramento {
+    background: var(--laranja);
+    padding: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    page-break-before: always;
+  }
+
+  .pagina-encerramento::before {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -100px;
+    width: 400px; height: 400px;
+    border: 3px solid rgba(255,255,255,0.12);
+    border-radius: 50%;
+  }
+
+  .pagina-encerramento::after {
+    content: '';
+    position: absolute;
+    top: 60px; right: 60px;
+    width: 0; height: 0;
+    border-left: 60px solid transparent;
+    border-bottom: 60px solid rgba(255,255,255,0.15);
+  }
+
+  .enc-header {
+    position: relative; z-index: 2;
+  }
+
+  .enc-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--branco);
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+
+  .enc-logo-sub {
+    font-size: 9px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    margin-top: 4px;
+  }
+
+  .enc-content {
+    position: relative; z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .enc-titulo {
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--branco);
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    max-width: 500px;
+  }
+
+  .enc-texto {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    max-width: 460px;
+    line-height: 1.9;
+    margin-bottom: 36px;
+  }
+
+  .enc-cta {
+    display: inline-block;
+    background: var(--branco);
+    color: var(--laranja);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+  }
+
+  .enc-footer {
+    position: relative; z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .enc-contato {
+    font-size: 10px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.8;
+  }
+
+  .enc-site {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--branco);
+    letter-spacing: 2px;
+    text-align: right;
+  }
+
+  /* Utilitários */
+  .mt-sm { margin-top: 12px; }
+  .mt-md { margin-top: 24px; }
+  .mt-lg { margin-top: 40px; }
+  .mb-sm { margin-bottom: 12px; }
+  .flex-gap { display: flex; gap: 16px; }
+  .flex-1 { flex: 1; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .pagina, .capa, .pagina-encerramento { page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+
+<!-- CAPA -->
+<div class="capa">
+  <div class="capa-header">
+    <div>
+      <div class="logo-nome">JARVIS</div>
+      <div class="logo-sub">inteligência imobiliária</div>
+    </div>
+  </div>
+
+  <div class="capa-content">
+    <div class="capa-tag">Relatório de Investimento · 2025</div>
+    <div class="capa-titulo">Maragogi</div>
+    <div class="capa-subtitulo">O Próximo Grande Destino do Nordeste</div>
+    <div class="capa-linha"></div>
+    <div class="capa-descricao">
+      Análise estratégica de investimento imobiliário com comparativo de mercado,
+      projeções de rentabilidade, impacto do aeroporto Costa dos Corais e
+      o efeito Jericoacoara aplicado ao Caribe Brasileiro.
+    </div>
+  </div>
+
+  <div class="capa-footer">
+    <div class="capa-footer-left">
+      Confidencial · Uso Interno<br>
+      JARVIS Inteligência Imobiliária · Maceió, AL
+    </div>
+    <div class="capa-footer-right">
+      Maragogi · Alagoas · Brasil<br>
+      Abril 2025
+    </div>
+  </div>
+</div>
+
+<!-- PÁG 1: O EFEITO JERICOACOARA -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">01 · O Efeito Jericoacoara</div>
+  </div>
+
+  <div class="secao-tag">Seção 01</div>
+  <div class="secao-titulo">O Efeito<br>Jericoacoara</div>
+  <div class="secao-subtitulo">O que um aeroporto faz com um destino — e o que vem por aí em Maragogi</div>
+  <div class="linha-laranja"></div>
+
+  <p>Em junho de 2017, Jericoacoara inaugurou seu aeroporto regional com investimento de <strong>R$ 90,4 milhões</strong>. O que aconteceu nos cinco anos seguintes é o caso de estudo mais relevante para entender o que está por vir em Maragogi.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Indicador</th>
+        <th>2018 — 1º Ano</th>
+        <th>2022 — 5 Anos</th>
+        <th>Crescimento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Passageiros/ano</td>
+        <td>96.040</td>
+        <td>312.353</td>
+        <td class="destaque-laranja">+225%</td>
+      </tr>
+      <tr>
+        <td>Voos/ano</td>
+        <td>1.821</td>
+        <td>4.221</td>
+        <td class="destaque-laranja">+131%</td>
+      </tr>
+      <tr>
+        <td>Projeção turistas (Setur)</td>
+        <td>+7% no 1º ano</td>
+        <td>+20% em 3 anos</td>
+        <td class="destaque-laranja">Superada</td>
+      </tr>
+      <tr>
+        <td>Investimento privado</td>
+        <td>Pousadas locais</td>
+        <td>Resort Anantara (luxo tailandês)</td>
+        <td class="destaque-laranja">Internacional</td>
+      </tr>
+      <tr>
+        <td>Gestão aeroporto</td>
+        <td>Governo estadual</td>
+        <td>Fraport (R$100mi adicionais)</td>
+        <td class="destaque-laranja">Privatizado</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>O metro quadrado em Jericoacoara hoje é <strong>comparado ao da Europa</strong>. Quem comprou antes de 2017 multiplicou seu patrimônio. Em 2026, a empresa alemã Fraport assinou a gestão do aeroporto com R$ 100 milhões adicionais em expansão. Jericoacoara se tornou referência global de destino premium.</p>
+
+  <div class="destaque-box">
+    <p><strong>A pergunta para o investidor não é "vai valorizar?".</strong> A pergunta é "já aconteceu antes?". A resposta para Maragogi é sim — e o nome desse antes é Jericoacoara. O playbook está escrito. Falta executar a compra no momento certo.</p>
+  </div>
+</div>
+
+<!-- PÁG 2: O AEROPORTO DE MARAGOGI -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">02 · Aeroporto Costa dos Corais</div>
+  </div>
+
+  <div class="secao-tag">Seção 02</div>
+  <div class="secao-titulo">Aeroporto<br>Costa dos Corais</div>
+  <div class="secao-subtitulo">O mesmo gatilho de Jericoacoara — desta vez, maior</div>
+  <div class="linha-laranja"></div>
+
+  <div class="cards-grid">
+    <div class="card-laranja card">
+      <div class="card-label">Investimento Total</div>
+      <div class="card-numero">R$ 400mi</div>
+      <div class="card-desc">Tesouro Estadual de Alagoas — 4,4× maior que Jericoacoara</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Conclusão Prevista</div>
+      <div class="card-numero-destaque">Dez/2026</div>
+      <div class="card-desc">Obras com 50% de execução (dez/2025). Terminal em construção desde mai/2025</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Capacidade</div>
+      <div class="card-numero-destaque">1 milhão</div>
+      <div class="card-desc">Passageiros/ano até 2028, segundo Setur-AL. Pista: 2.200m × 45m</div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-label">Aeronaves</div>
+      <div class="card-numero-destaque">A320 / B737</div>
+      <div class="card-desc">Voos de médio e longo alcance, inclusive internacionais via conexão</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Localização Estratégica</div>
+      <div class="card-numero-destaque">130 km</div>
+      <div class="card-desc">Equidistante de Recife e Maceió — entre os dois maiores aeroportos do Nordeste</div>
+    </div>
+    <div class="card-preto card">
+      <div class="card-label">Gestão Privada</div>
+      <div class="card-numero">Edital<br>aberto</div>
+      <div class="card-desc">Concessionária privada já em processo de seleção</div>
+    </div>
+  </div>
+
+  <div class="secao-tag mt-md">Conexão Suape</div>
+  <p>O aeroporto está a <strong>100km do Porto de Suape</strong> — maior complexo portuário-industrial do Nordeste. A pista foi projetada para receber <strong>voos de carga</strong>, criando um corredor logístico inédito entre Alagoas e Pernambuco. Isso abre a porta para voos fretados internacionais via Recife, algo que Jericoacoara levou anos para conseguir.</p>
+
+  <div class="timeline mt-md">
+    <div class="timeline-item">
+      <div class="timeline-ano">2024</div>
+      <div class="timeline-label">Retomada das obras</div>
+      <div class="timeline-desc">Após 4 anos parado, governo retoma com investimento de R$400mi</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-ano">Mai/2025</div>
+      <div class="timeline-label">Terminal iniciado</div>
+      <div class="timeline-desc">Obras do terminal de passageiros começam</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-ano">Dez/2025</div>
+      <div class="timeline-label">50% concluído</div>
+      <div class="timeline-desc">Terraplanagem e drenagem finalizadas</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-ano">Dez/2026</div>
+      <div class="timeline-label">Inauguração</div>
+      <div class="timeline-desc">Previsão oficial do Governo de Alagoas</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-ano">2027–28</div>
+      <div class="timeline-label">Boom turístico</div>
+      <div class="timeline-desc">Efeito aeroporto se materializa — como aconteceu em Jeri</div>
+    </div>
+  </div>
+</div>
+
+<!-- PÁG 3: COMPARATIVO JERI vs MARAGOGI -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">03 · Jericoacoara vs. Maragogi</div>
+  </div>
+
+  <div class="secao-tag">Seção 03</div>
+  <div class="secao-titulo">Jericoacoara<br>vs. Maragogi</div>
+  <div class="secao-subtitulo">O mesmo modelo. Condições melhores. Janela ainda aberta.</div>
+  <div class="linha-laranja"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Critério</th>
+        <th>Jericoacoara (2017)</th>
+        <th>Maragogi (2025–26)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Investimento no aeroporto</td>
+        <td>R$ 90,4 milhões</td>
+        <td class="destaque-laranja">R$ 400 milhões (+342%)</td>
+      </tr>
+      <tr>
+        <td>Tamanho da pista</td>
+        <td>2.200m × 45m</td>
+        <td>2.200m × 45m (mesma)</td>
+      </tr>
+      <tr>
+        <td>Aeronaves suportadas</td>
+        <td>Regionais</td>
+        <td class="destaque-laranja">A320 / B737-800 (voos nacionais)</td>
+      </tr>
+      <tr>
+        <td>Capacidade projetada</td>
+        <td>600 mil pass./ano</td>
+        <td class="destaque-laranja">1 milhão pass./ano até 2028</td>
+      </tr>
+      <tr>
+        <td>Distância de grandes hubs</td>
+        <td>~300km de Fortaleza</td>
+        <td class="destaque-laranja">130km de Recife E de Maceió</td>
+      </tr>
+      <tr>
+        <td>Conexão portuária/logística</td>
+        <td>Não</td>
+        <td class="destaque-laranja">Porto de Suape a 100km</td>
+      </tr>
+      <tr>
+        <td>Gestão privada</td>
+        <td>Fraport (só em 2026)</td>
+        <td class="destaque-laranja">Edital já aberto</td>
+      </tr>
+      <tr>
+        <td>Reconhecimento da marca</td>
+        <td>Crescendo em 2017</td>
+        <td class="destaque-laranja">Já consolidado ("Caribe Brasileiro")</td>
+      </tr>
+      <tr>
+        <td>Grandes investidores presentes</td>
+        <td>Chegaram depois</td>
+        <td class="destaque-laranja">Já chegaram (Neymar/DUE, R$7,5bi)</td>
+      </tr>
+      <tr>
+        <td>Janela para comprar</td>
+        <td>Fechada</td>
+        <td class="destaque-laranja">ABERTA — pré-inauguração</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="destaque-box">
+    <p>
+      <strong>Quem comprou em Jeri em 2015 multiplicou.</strong> Quem compra em Maragogi em 2025 está na mesma posição — mas com um destino que já tem reconhecimento de marca nacional, investimento público 4× maior e o corredor Suape como diferencial extra. A janela de Jeri fechou. A de Maragogi está aberta agora.
+    </p>
+  </div>
+</div>
+
+<!-- PÁG 4: MARAGOGI vs PORTO DE GALINHAS -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">04 · Maragogi vs. Porto de Galinhas</div>
+  </div>
+
+  <div class="secao-tag">Seção 04</div>
+  <div class="secao-titulo">Por que Maragogi<br>e não Porto de Galinhas</div>
+  <div class="secao-subtitulo">Porto de Galinhas é o passado de Maragogi — e o passado é caro demais para comprar.</div>
+  <div class="linha-laranja"></div>
+
+  <p>Porto de Galinhas foi o que Maragogi está prestes a se tornar. O destino pernambucano consolidou sua marca, atraiu investimentos e valorizou muito — exatamente por isso, a janela de entrada para o investidor fechou. O que Porto de Galinhas representa hoje é o teto de Maragogi amanhã.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Critério</th>
+        <th>Porto de Galinhas</th>
+        <th>Maragogi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Estágio do mercado</td>
+        <td>Maduro / saturado</td>
+        <td class="destaque-laranja">Expansão acelerada</td>
+      </tr>
+      <tr>
+        <td>Preço do m²</td>
+        <td>Elevado (valorizado)</td>
+        <td class="destaque-laranja">Ainda acessível (R$5k–9k)</td>
+      </tr>
+      <tr>
+        <td>Potencial de valorização</td>
+        <td>Limitado</td>
+        <td class="destaque-laranja">Alto — pré-aeroporto</td>
+      </tr>
+      <tr>
+        <td>Superlotação</td>
+        <td>Alta temporada caótica</td>
+        <td>Ainda controlado e preservado</td>
+      </tr>
+      <tr>
+        <td>Proteção ambiental</td>
+        <td>Reduzida</td>
+        <td class="destaque-laranja">APA Costa dos Corais (maior do Brasil)</td>
+      </tr>
+      <tr>
+        <td>Aeroporto próprio</td>
+        <td>Não</td>
+        <td class="destaque-laranja">Sim — em construção, R$400mi</td>
+      </tr>
+      <tr>
+        <td>Novos grandes investimentos</td>
+        <td>Já chegaram</td>
+        <td class="destaque-laranja">Chegando agora</td>
+      </tr>
+      <tr>
+        <td>Posição ideal para o investidor</td>
+        <td>Tarde demais</td>
+        <td class="destaque-laranja">Agora</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="destaque-box">
+    <p>
+      A lógica do investimento imobiliário é comprar onde o crescimento <strong>ainda vai acontecer</strong>, não onde já aconteceu. Porto de Galinhas é a prova do que Maragogi vai se tornar — mas o trem de Porto de Galinhas já saiu. <strong>O de Maragogi está na plataforma.</strong>
+    </p>
+  </div>
+
+  <p class="mt-sm">Nota estratégica: o projeto <strong>Neymar/DUE de R$ 7,5 bilhões</strong> em 28 empreendimentos abrange o corredor Porto de Galinhas → Carneiros → Maragogi → Japaratinga. Os maiores players do setor já estão apostando que o crescimento vai fluir para o norte — ou seja, para Maragogi.</p>
+</div>
+
+<!-- PÁG 5: MARAGOGI vs SÃO MIGUEL DOS MILAGRES -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">05 · Maragogi vs. São Miguel dos Milagres</div>
+  </div>
+
+  <div class="secao-tag">Seção 05</div>
+  <div class="secao-titulo">Maragogi vs.<br>São Miguel dos Milagres</div>
+  <div class="secao-subtitulo">Dois paraísos alagoanos — potenciais completamente diferentes.</div>
+  <div class="linha-laranja"></div>
+
+  <p>São Miguel dos Milagres é um destino de alto padrão e charme genuíno. Mas tem um teto estrutural que Maragogi não tem. Para o investidor que busca rentabilidade, liquidez e valorização de escala, a comparação é clara.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Critério</th>
+        <th>São Miguel dos Milagres</th>
+        <th>Maragogi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Perfil do destino</td>
+        <td>Boutique / nicho</td>
+        <td class="destaque-laranja">Massivo + premium em ascensão</td>
+      </tr>
+      <tr>
+        <td>Reconhecimento de marca</td>
+        <td>Regional / sofisticado</td>
+        <td class="destaque-laranja">Nacional e internacional</td>
+      </tr>
+      <tr>
+        <td>Turistas/ano</td>
+        <td>Baixo volume (nicho)</td>
+        <td class="destaque-laranja">750 mil+ ao ano e crescendo</td>
+      </tr>
+      <tr>
+        <td>Aeroporto próprio</td>
+        <td>Não</td>
+        <td class="destaque-laranja">Sim — em construção</td>
+      </tr>
+      <tr>
+        <td>Airbnb / temporada</td>
+        <td>Restrito, mercado pequeno</td>
+        <td class="destaque-laranja">1.787 imóveis ativos · R$514 diária média (AirDNA 2025)</td>
+      </tr>
+      <tr>
+        <td>Rentabilidade anual</td>
+        <td>Estável (nicho premium)</td>
+        <td class="destaque-laranja">12% a 30% a.a. em projetos específicos</td>
+      </tr>
+      <tr>
+        <td>Liquidez do imóvel</td>
+        <td>Baixa (mercado restrito)</td>
+        <td class="destaque-laranja">Alta e crescente</td>
+      </tr>
+      <tr>
+        <td>Infraestrutura em expansão</td>
+        <td>Limitada</td>
+        <td class="destaque-laranja">Aeroporto + hotéis + resorts + estradas</td>
+      </tr>
+      <tr>
+        <td>Para o investidor</td>
+        <td>Retorno estável, baixa escala</td>
+        <td class="destaque-laranja">Alto retorno + alto volume + valorização</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="destaque-box">
+    <p>
+      São Miguel dos Milagres é onde quem <strong>já tem patrimônio</strong> coloca dinheiro seguro em alto padrão. <strong>Maragogi é onde o patrimônio é construído</strong> — é o destino que está em formação de preço, com demanda real, infraestrutura chegando e reconhecimento de marca já consolidado. São destinos complementares — mas o momento de construir riqueza é Maragogi.
+    </p>
+  </div>
+</div>
+
+<!-- PÁG 6: AIRBNB E RENTABILIDADE -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">06 · Rentabilidade e Airbnb</div>
+  </div>
+
+  <div class="secao-tag">Seção 06</div>
+  <div class="secao-titulo">Rentabilidade<br>e Airbnb</div>
+  <div class="secao-subtitulo">Dados do mercado de locação por temporada em Maragogi</div>
+  <div class="linha-laranja"></div>
+
+  <div class="cards-grid">
+    <div class="card-laranja card">
+      <div class="card-label">Imóveis ativos no mercado</div>
+      <div class="card-numero">1.787</div>
+      <div class="card-desc">Unidades de temporada ativas em Maragogi — crescimento de 3% a.a. Fonte: AirDNA 2025</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Diária média de mercado</div>
+      <div class="card-numero-destaque">R$ 514</div>
+      <div class="card-desc">ADR médio anual. Pico de R$ 755/noite em fevereiro. Fonte: AirDNA 2025</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Receita anual estimada</div>
+      <div class="card-numero-destaque">R$ 70k</div>
+      <div class="card-desc">Por unidade de 1 quarto, cenário realista. Base: diária de R$430 × 45% de ocupação</div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-label">Taxa de ocupação anual</div>
+      <div class="card-numero-destaque">38%</div>
+      <div class="card-desc">Média do mercado (AirDNA 2025), com crescimento de +4% a.a. Tende a aumentar pós-aeroporto</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Crescimento do setor 2024</div>
+      <div class="card-numero-destaque">+43%</div>
+      <div class="card-desc">O mercado de temporada brasileiro cresceu 43% em 2024 e movimenta R$12,4 bilhões/ano</div>
+    </div>
+    <div class="card-preto card">
+      <div class="card-label">Referência regional (Porto de Galinhas)</div>
+      <div class="card-numero">12–18%</div>
+      <div class="card-desc">Rentabilidade anual de imóveis de temporada em Porto de Galinhas — destino comparável no Nordeste</div>
+    </div>
+  </div>
+
+  <p class="mt-sm">Maragogi figurou entre os dez destinos nacionais mais buscados no Airbnb, segundo ranking divulgado pela plataforma para o verão de 2023 — evidência de demanda real e consolidada, não especulativa.</p>
+
+  <p><strong>Projeção por unidade de 1 quarto — base AirDNA e preços reais de mercado (2025):</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Cenário</th>
+        <th>Diária Média</th>
+        <th>Ocupação Anual</th>
+        <th>Receita Bruta/Ano</th>
+        <th>Yield (R$350k)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Conservador</td>
+        <td>R$ 350</td>
+        <td>38%</td>
+        <td>R$ 48.650</td>
+        <td class="destaque-laranja">13,9% a.a.</td>
+      </tr>
+      <tr>
+        <td>Realista</td>
+        <td>R$ 430</td>
+        <td>45%</td>
+        <td>R$ 70.520</td>
+        <td class="destaque-laranja">20,1% a.a.</td>
+      </tr>
+      <tr>
+        <td>Otimista (gestão profissional)</td>
+        <td>R$ 520</td>
+        <td>60%</td>
+        <td>R$ 113.880</td>
+        <td class="destaque-laranja">32,5% a.a.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Maragogi não tem baixa temporada real.</strong> O clima quente durante o ano inteiro mantém fluxo constante de turistas, diferente de destinos sazonais — o que garante ocupação mesmo nos meses "fracos" do calendário turístico nacional. Com a inauguração do aeroporto em dez/2026, a taxa de ocupação tende a crescer significativamente, aproximando-se dos índices de Porto de Galinhas.</p>
+
+  <p style="font-size:9px; color:#999; margin-top:8px;">Fontes: AirDNA MarketMinder — Maragogi/AL (1.787 imóveis, 2025) · Anfitrião Prime — Porto de Galinhas rentabilidade · CozyCozy / Booking.com — preços reais de mercado</p>
+</div>
+
+<!-- PÁG 7: RESUMO EXECUTIVO -->
+<div class="pagina">
+  <div class="pagina-header">
+    <div class="pagina-logo">JARVIS · Inteligência Imobiliária</div>
+    <div class="pagina-num">07 · Resumo Executivo</div>
+  </div>
+
+  <div class="secao-tag">Seção 07</div>
+  <div class="secao-titulo">Resumo<br>Executivo</div>
+  <div class="secao-subtitulo">Por que Maragogi agora — os 8 pilares do investimento</div>
+  <div class="linha-laranja"></div>
+
+  <ul class="lista-bullets">
+    <li><strong>Marca já consolidada.</strong> "Caribe Brasileiro" tem reconhecimento nacional e internacional — o trabalho de brand building já foi feito. O destino não precisa ser descoberto, precisa de infraestrutura. Ela está chegando.</li>
+    <li><strong>Aeroporto como gatilho.</strong> R$ 400 milhões investidos, entrega em dez/2026, aeronaves A320/B737-800. O mesmo gatilho que disparou Jericoacoara — desta vez com investimento 4× maior.</li>
+    <li><strong>Preço ainda na janela.</strong> Metro quadrado entre R$ 5.000 e R$ 9.000 — antes do choque de demanda pós-aeroporto. Comprar agora é comprar no pré-inauguração.</li>
+    <li><strong>Mercado de temporada ativo e crescente.</strong> 1.787 imóveis ativos, diária média de R$514 e +43% de crescimento no setor em 2024. 750 mil+ turistas/ano com meta de 1 milhão até 2028. Fonte: AirDNA 2025.</li>
+    <li><strong>APA Costa dos Corais.</strong> A maior área de proteção marinha do Brasil impede especulação excessiva e preserva o ativo. O que faz Maragogi ser bonito, continuará sendo — por lei.</li>
+    <li><strong>Corredor de bilhões chegando.</strong> Projeto Neymar/DUE de R$ 7,5 bilhões no corredor Porto de Galinhas–Maragogi. Até 2026, chegam 5 novos hotéis e resorts à região.</li>
+    <li><strong>Rentabilidade comprovada.</strong> 12% a 30% ao ano via temporada — em linha com Porto de Galinhas (12–18% a.a.), destino de referência nordestino. Receita potencial de R$ 70.000/unidade/ano no cenário realista, com perspectiva de crescimento pós-aeroporto.</li>
+    <li><strong>Porto de Galinhas como espelho.</strong> É o passado de Maragogi. Quem perdeu Porto de Galinhas tem a segunda oportunidade aqui — e desta vez com aeroporto próprio.</li>
+  </ul>
+
+  <div class="destaque-box">
+    <p>
+      <strong>A janela de entrada é agora.</strong> Depois do aeroporto inaugurar em dezembro de 2026, o preço de entrada muda. Jericoacoara ensinou isso. Porto de Galinhas ensinou isso. O investidor que age antes da infraestrutura chegar é o que colhe os maiores retornos. Em Maragogi, esse momento é hoje.
+    </p>
+  </div>
+</div>
+
+<!-- ENCERRAMENTO -->
+<div class="pagina-encerramento">
+  <div class="enc-header">
+    <div class="enc-logo">JARVIS</div>
+    <div class="enc-logo-sub">inteligência imobiliária</div>
+  </div>
+
+  <div class="enc-content">
+    <div class="enc-titulo">Visitar é inesquecível.<br>Pertencer é pra sempre.</div>
+    <div class="enc-texto">
+      A JARVIS Inteligência Imobiliária é sua base para encontrar o imóvel certo em Maragogi — antes que o aeroporto mude os preços para sempre. Fale com nosso time de consultores e descubra as oportunidades disponíveis agora.
+    </div>
+    <div class="enc-cta">Fale com um especialista JARVIS</div>
+  </div>
+
+  <div class="enc-footer">
+    <div class="enc-contato">
+      JARVIS Inteligência Imobiliária<br>
+      Maceió, Alagoas — Brasil<br>
+      marketing@jarvisimoveis.com.br<br>
+      (82) 9 9611-4939
+    </div>
+    <div class="enc-site">
+      jarvisimoveis.com.br<br>
+      @jarvisimoveis.br
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

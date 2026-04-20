@@ -1,0 +1,335 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDTgbko7APGV%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de mundodatastore" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de mundodatastore" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de mundodatastore
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e82]:
+                - generic [ref=e87] [cursor=pointer]:
+                  - button [ref=e88]:
+                    - img [ref=e90]
+                  - button [ref=e93]:
+                    - img [ref=e95]
+              - listitem [ref=e97]:
+                - img [ref=e104]
+            - button [ref=e106] [cursor=pointer]
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - generic [ref=e113]:
+              - link "Foto do perfil de izildocastilhojr" [ref=e114]:
+                - img "Foto do perfil de izildocastilhojr" [ref=e115]
+              - link "Foto do perfil de mundodatastore" [ref=e118]:
+                - img "Foto do perfil de mundodatastore" [ref=e119]
+            - generic [ref=e124]:
+              - link "mundodatastore" [ref=e126] [cursor=pointer]:
+                - /url: /mundodatastore/
+                - generic [ref=e129]: mundodatastore
+              - text: e
+              - link "outros 2" [ref=e131] [cursor=pointer]:
+                - /url: "#"
+            - button "Mais opções" [ref=e134] [cursor=pointer]:
+              - img "Mais opções" [ref=e137]
+          - separator [ref=e141]
+          - generic [ref=e143]:
+            - generic [ref=e145]:
+              - link "Foto do perfil de mundodatastore" [ref=e147] [cursor=pointer]:
+                - /url: /mundodatastore/
+                - img "Foto do perfil de mundodatastore" [ref=e148]
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - link "mundodatastore Verificado" [ref=e154] [cursor=pointer]:
+                    - /url: /mundodatastore/
+                    - generic [ref=e156]:
+                      - generic [ref=e157]: mundodatastore
+                      - img "Verificado" [ref=e159]
+                  - time [ref=e162]: 12 sem
+                - generic [ref=e163]:
+                  - text: "Todo incorporador já se fez essa pergunta: e se o mercado não responder?"
+                  - text: Aqui, a resposta veio antes do lançamento.
+            - button "Carregar mais comentários" [ref=e165] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e167]
+            - generic [ref=e169]:
+              - generic [ref=e172]:
+                - link "Foto do perfil de ale_zanqueta" [ref=e175] [cursor=pointer]:
+                  - /url: /ale_zanqueta/
+                  - img "Foto do perfil de ale_zanqueta" [ref=e176]
+                - generic [ref=e178]:
+                  - generic [ref=e180]:
+                    - generic [ref=e181]:
+                      - link "ale_zanqueta Verificado" [ref=e183] [cursor=pointer]:
+                        - /url: /ale_zanqueta/
+                        - generic [ref=e185]:
+                          - generic [ref=e186]: ale_zanqueta
+                          - img "Verificado" [ref=e188]
+                      - link "9 sem" [ref=e191] [cursor=pointer]:
+                        - /url: /p/DTgbko7APGV/c/18348192622239331/
+                        - time [ref=e192]: 9 sem
+                    - generic [ref=e194]:
+                      - link "@cesar_b_s" [ref=e195] [cursor=pointer]:
+                        - /url: /cesar_b_s/
+                      - link "@laudo_furtado" [ref=e196] [cursor=pointer]:
+                        - /url: /laudo_furtado/
+                  - generic [ref=e197]:
+                    - button "1 curtida" [ref=e198] [cursor=pointer]:
+                      - generic [ref=e200]: 1 curtida
+                    - button "Responder" [ref=e201] [cursor=pointer]:
+                      - generic [ref=e203]: Responder
+              - generic [ref=e206]:
+                - link "Foto do perfil de fernandoferpaa" [ref=e209] [cursor=pointer]:
+                  - /url: /fernandoferpaa/
+                  - img "Foto do perfil de fernandoferpaa" [ref=e210]
+                - generic [ref=e212]:
+                  - generic [ref=e214]:
+                    - generic [ref=e215]:
+                      - link "fernandoferpaa" [ref=e217] [cursor=pointer]:
+                        - /url: /fernandoferpaa/
+                        - generic [ref=e220]: fernandoferpaa
+                      - link "12 sem" [ref=e222] [cursor=pointer]:
+                        - /url: /p/DTgbko7APGV/c/17951735735935673/
+                        - time [ref=e223]: 12 sem
+                    - generic [ref=e225]: 👏👏👏👏👏
+                  - generic [ref=e226]:
+                    - button "1 curtida" [ref=e227] [cursor=pointer]:
+                      - generic [ref=e229]: 1 curtida
+                    - button "Responder" [ref=e230] [cursor=pointer]:
+                      - generic [ref=e232]: Responder
+              - generic [ref=e235]:
+                - link "Foto do perfil de izildocastilhojr" [ref=e238] [cursor=pointer]:
+                  - /url: /izildocastilhojr/
+                  - img "Foto do perfil de izildocastilhojr" [ref=e239]
+                - generic [ref=e241]:
+                  - generic [ref=e243]:
+                    - generic [ref=e244]:
+                      - link "izildocastilhojr" [ref=e246] [cursor=pointer]:
+                        - /url: /izildocastilhojr/
+                        - generic [ref=e249]: izildocastilhojr
+                      - link "12 sem" [ref=e251] [cursor=pointer]:
+                        - /url: /p/DTgbko7APGV/c/18050257940470434/
+                        - time [ref=e252]: 12 sem
+                    - generic [ref=e254]:
+                      - text: Queria agradecer ao
+                      - link "@rodrigo_brisola" [ref=e255] [cursor=pointer]:
+                        - /url: /rodrigo_brisola/
+                      - text: ", ao"
+                      - link "@felipebalzan" [ref=e256] [cursor=pointer]:
+                        - /url: /felipebalzan/
+                      - text: e a toda família
+                      - link "@paxempreendimentos" [ref=e257] [cursor=pointer]:
+                        - /url: /paxempreendimentos/
+                      - text: pela parceira e confiança no nosso trabalho! 🤜🏻💥🤛🏻 🚀
+                  - generic [ref=e258]:
+                    - button "1 curtida" [ref=e259] [cursor=pointer]:
+                      - generic [ref=e261]: 1 curtida
+                    - button "Responder" [ref=e262] [cursor=pointer]:
+                      - generic [ref=e264]: Responder
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - button "Curtir" [ref=e270] [cursor=pointer]:
+                  - img "Curtir" [ref=e273]
+                - button "101" [ref=e275] [cursor=pointer]
+                - button "Comentar" [ref=e277] [cursor=pointer]:
+                  - img "Comentar" [ref=e279]
+                - button "3" [ref=e281] [cursor=pointer]
+                - button "Compartilhar" [ref=e282] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e283]
+              - button "Salvar" [ref=e287] [cursor=pointer]:
+                - img "Salvar" [ref=e289]
+            - link "14 de janeiro" [ref=e293] [cursor=pointer]:
+              - /url: /mundodatastore/p/DTgbko7APGV/
+              - time [ref=e295]: 14 de janeiro
+          - generic [ref=e300]:
+            - link "Entrar" [ref=e301] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDTgbko7APGV%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e303]
+      - generic [ref=e304]:
+        - generic [ref=e306]:
+          - text: Mais posts de
+          - link "mundodatastore" [ref=e307] [cursor=pointer]:
+            - /url: /mundodatastore/
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - link "Carrossel" [ref=e313] [cursor=pointer]:
+              - /url: /mundodatastore/p/DTSxDaYAK7t/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Carrossel" [ref=e318] [cursor=pointer]:
+              - /url: /mundodatastore/p/DRZ0tiFAEuu/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link [ref=e323] [cursor=pointer]:
+              - /url: /mundodatastore/p/DXIMu_igA0b/
+          - generic [ref=e327]:
+            - link [ref=e329] [cursor=pointer]:
+              - /url: /mundodatastore/p/DXC8JV5gexh/
+            - link "Clipe" [ref=e334] [cursor=pointer]:
+              - /url: /mundodatastore/reel/DW9yjNWhXqR/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e339] [cursor=pointer]:
+              - /url: /mundodatastore/p/DW7UiDmAH_i/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e343]:
+            - link [ref=e345] [cursor=pointer]:
+              - /url: /mundodatastore/p/DW4rwjgAHN2/
+            - link "Clipe" [ref=e350] [cursor=pointer]:
+              - /url: /mundodatastore/reel/DW1d6phgCOT/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e355]:
+          - link "Ver mais posts" [ref=e357] [cursor=pointer]:
+            - /url: /mundodatastore/
+            - generic [ref=e358]: Ver mais posts
+          - separator [ref=e359]
+  - contentinfo [ref=e360]:
+    - generic [ref=e361]:
+      - generic [ref=e363]:
+        - link "Meta" [ref=e365] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e366]: Meta
+        - link "Sobre" [ref=e368] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e369]: Sobre
+        - link "Blog" [ref=e371] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e372]: Blog
+        - link "Carreiras" [ref=e374] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e375]: Carreiras
+        - link "Ajuda" [ref=e377] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e378]: Ajuda
+        - link "API" [ref=e380] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e381]: API
+        - link "Privacidade" [ref=e383] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e384]: Privacidade
+        - link "Termos" [ref=e386] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e387]: Termos
+        - link "Localizações" [ref=e389] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e390]: Localizações
+        - link "Instagram Lite" [ref=e392] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e393]: Instagram Lite
+        - link "Meta AI" [ref=e395] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e396]: Meta AI
+        - link "Threads" [ref=e398] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e399]: Threads
+        - link "Upload de contatos e não usuários" [ref=e401] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e402]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e404] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e405]: Meta Verified
+      - generic [ref=e406]:
+        - generic [ref=e407] [cursor=pointer]:
+          - generic [ref=e408]:
+            - generic [ref=e409]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e412]
+          - combobox "Trocar idioma de exibição" [ref=e414]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e416]: © 2026 Instagram from Meta

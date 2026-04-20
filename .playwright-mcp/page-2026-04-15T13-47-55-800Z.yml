@@ -1,0 +1,268 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDWpS_vjAUSP%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]
+              - listitem [ref=e370]:
+                - img [ref=e377]
+              - listitem [ref=e379]:
+                - img [ref=e386]
+            - button [ref=e368] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - button "Foto do perfil de mundodatastore" [disabled] [ref=e107]:
+              - link "Foto do perfil de mundodatastore" [disabled] [ref=e109] [cursor=pointer]:
+                - img "Foto do perfil de mundodatastore" [ref=e110]
+            - generic [ref=e113]:
+              - generic [ref=e115]:
+                - link "mundodatastore" [ref=e117] [cursor=pointer]:
+                  - /url: /mundodatastore/
+                  - generic [ref=e120]: mundodatastore
+                - img "Verificado" [ref=e122]
+              - generic [ref=e124]:
+                - generic [ref=e126]: •
+                - button "Seguir" [ref=e127] [cursor=pointer]
+            - button "Mais opções" [ref=e130] [cursor=pointer]:
+              - img "Mais opções" [ref=e133]
+          - separator [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - link "Foto do perfil de mundodatastore" [ref=e143] [cursor=pointer]:
+                - /url: /mundodatastore/
+                - img "Foto do perfil de mundodatastore" [ref=e144]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - link "mundodatastore Verificado" [ref=e150] [cursor=pointer]:
+                    - /url: /mundodatastore/
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: mundodatastore
+                      - img "Verificado" [ref=e155]
+                  - time [ref=e158]: 1 sem
+                - generic [ref=e159]:
+                  - text: O aumento da longevidade mudou a forma como as pessoas projetam a própria vida.
+                  - text: Não se trata apenas de chegar mais longe,
+                  - text: mas de conseguir manter qualidade nesse percurso.
+            - button "Carregar mais comentários" [ref=e161] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e163]
+            - generic [ref=e168]:
+              - link "Foto do perfil de deniserodrigues_stager" [ref=e171] [cursor=pointer]:
+                - /url: /deniserodrigues_stager/
+                - img "Foto do perfil de deniserodrigues_stager" [ref=e172]
+              - generic [ref=e174]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - link "deniserodrigues_stager" [ref=e179] [cursor=pointer]:
+                      - /url: /deniserodrigues_stager/
+                      - generic [ref=e182]: deniserodrigues_stager
+                    - link "1 sem" [ref=e184] [cursor=pointer]:
+                      - /url: /p/DWpS_vjAUSP/c/17852688342642375/
+                      - time [ref=e185]: 1 sem
+                  - generic [ref=e187]: Perfeita colocação...! Parabens...sou uma dessas pessoas
+                - generic [ref=e188]:
+                  - button "Curtir" [ref=e189] [cursor=pointer]:
+                    - generic [ref=e190]: Curtir
+                  - button "Responder" [ref=e191] [cursor=pointer]:
+                    - generic [ref=e193]: Responder
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - button "Curtir" [ref=e199] [cursor=pointer]:
+                  - img "Curtir" [ref=e202]
+                - button "57" [ref=e204] [cursor=pointer]
+                - button "Comentar" [ref=e206] [cursor=pointer]:
+                  - img "Comentar" [ref=e208]
+                - button "1" [ref=e210] [cursor=pointer]
+                - button "Compartilhar" [ref=e211] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e212]
+              - button "Salvar" [ref=e216] [cursor=pointer]:
+                - img "Salvar" [ref=e218]
+            - link "2 de abril" [ref=e222] [cursor=pointer]:
+              - /url: /mundodatastore/p/DWpS_vjAUSP/
+              - time [ref=e224]: 2 de abril
+          - generic [ref=e229]:
+            - link "Entrar" [ref=e230] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDWpS_vjAUSP%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e232]
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - text: Mais posts de
+          - link "mundodatastore" [ref=e236] [cursor=pointer]:
+            - /url: /mundodatastore/
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - 'link "Todo incorporador já se fez essa pergunta: e se o mercado não responder? Aqui, a resposta veio antes do lançamento. Carrossel" [ref=e242] [cursor=pointer]':
+              - /url: /mundodatastore/p/DTgbko7APGV/
+              - 'img "Todo incorporador já se fez essa pergunta: e se o mercado não responder? Aqui, a resposta veio antes do lançamento." [ref=e245]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Lançar bem deixou de ser apenas uma questão de execução. Hoje, passa por entender comportamento, renda, intenção e timing de compra, antes que o projeto vá para a rua. É nessa etapa que muitos riscos nascem. E é nela que eles podem ser reduzidos. A pesquisa de demanda transforma dados em base estratégica para decisões mais conscientes e lançamentos mais alinhados ao mercado real. Carrossel" [ref=e248] [cursor=pointer]:
+              - /url: /mundodatastore/p/DTSxDaYAK7t/
+              - img "Lançar bem deixou de ser apenas uma questão de execução. Hoje, passa por entender comportamento, renda, intenção e timing de compra, antes que o projeto vá para a rua. É nessa etapa que muitos riscos nascem. E é nela que eles podem ser reduzidos. A pesquisa de demanda transforma dados em base estratégica para decisões mais conscientes e lançamentos mais alinhados ao mercado real." [ref=e251]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - 'link "🟣 A cada edição, novas conexões, novas ideias e uma energia que transforma o jeito de pensar o mercado. 🟣 Vem aí mais um capítulo dessa jornada que conecta inovação, pessoas e propósito: SIMM! BR – OPEN HOUSE 🟣 Preparados para viver tudo isso de perto? Já anotem na agenda. Carrossel" [ref=e254] [cursor=pointer]':
+              - /url: /mundodatastore/p/DRZ0tiFAEuu/
+              - 'img "🟣 A cada edição, novas conexões, novas ideias e uma energia que transforma o jeito de pensar o mercado. 🟣 Vem aí mais um capítulo dessa jornada que conecta inovação, pessoas e propósito: SIMM! BR – OPEN HOUSE 🟣 Preparados para viver tudo isso de perto? Já anotem na agenda." [ref=e257]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e259]:
+            - link "Photo by Datastore | Mundo imobiliário on April 14, 2026. May be an image of text that says 'Loteamentos e condomínios residenciais são O ouro da segunda metade do século χ |NEWS datastore'." [ref=e261] [cursor=pointer]:
+              - /url: /mundodatastore/p/DXIMu_igA0b/
+              - img "Photo by Datastore | Mundo imobiliário on April 14, 2026. May be an image of text that says 'Loteamentos e condomínios residenciais são O ouro da segunda metade do século χ |NEWS datastore'." [ref=e264]
+            - link "Photo by Datastore | Mundo imobiliário on April 12, 2026. May be a meme of pie and text that says 'datastore A lua crescente do mercado imobiliário não para. Quase 1 milhão de novas famílias entraram na fila do sonho da casa própria em apenas 2 anos. Imóvel valorizando. Aluguel subindo. Eo relógio correndo. Lua cheia nao dura para sempre, a hora é agora. Marcus Araujo'." [ref=e267] [cursor=pointer]:
+              - /url: /mundodatastore/p/DXC8JV5gexh/
+              - img "Photo by Datastore | Mundo imobiliário on April 12, 2026. May be a meme of pie and text that says 'datastore A lua crescente do mercado imobiliário não para. Quase 1 milhão de novas famílias entraram na fila do sonho da casa própria em apenas 2 anos. Imóvel valorizando. Aluguel subindo. Eo relógio correndo. Lua cheia nao dura para sempre, a hora é agora. Marcus Araujo'." [ref=e270]
+            - link "No mercado imobiliário, opinião é fácil de encontrar. Todo mundo tem uma. O vizinho acha que o bairro vai valorizar. O corretor garante que é o melhor momento. O economista prevê uma correção. Mas os dados não achas. Não garantem. Não prevêm com achismo. Os dados registram o que o mercado realmente está fazendo. Incorporadores que constroem com dados lançam menos e vendem mais. Clipe" [ref=e273] [cursor=pointer]:
+              - /url: /mundodatastore/reel/DW9yjNWhXqR/
+              - img "No mercado imobiliário, opinião é fácil de encontrar. Todo mundo tem uma. O vizinho acha que o bairro vai valorizar. O corretor garante que é o melhor momento. O economista prevê uma correção. Mas os dados não achas. Não garantem. Não prevêm com achismo. Os dados registram o que o mercado realmente está fazendo. Incorporadores que constroem com dados lançam menos e vendem mais." [ref=e276]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+          - generic [ref=e278]:
+            - link "12.709.365 famílias brasileiras declararam intenção de comprar um imóvel nos próximos 24 meses. O mercado não está parado. Está esperando o produto certo aparecer na praça certa, no momento certo. Incorporador que mapeia essa demanda antes de definir produto não está sendo mais cuidadoso. Está sendo mais rápido. Carrossel" [ref=e280] [cursor=pointer]:
+              - /url: /mundodatastore/p/DW7UiDmAH_i/
+              - img "12.709.365 famílias brasileiras declararam intenção de comprar um imóvel nos próximos 24 meses. O mercado não está parado. Está esperando o produto certo aparecer na praça certa, no momento certo. Incorporador que mapeia essa demanda antes de definir produto não está sendo mais cuidadoso. Está sendo mais rápido." [ref=e283]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - 'link "Photo by Datastore | Mundo imobiliário on April 08, 2026. May be an image of ‎text that says ''‎ور 北中度 ك Quando a terra acaba, o preço muda de lógica: imóveis de luxo em São Paulo já valoriza até 10x acima da média. |NEWS datastore‎''‎." [ref=e286] [cursor=pointer]':
+              - /url: /mundodatastore/p/DW4rwjgAHN2/
+              - 'img "Photo by Datastore | Mundo imobiliário on April 08, 2026. May be an image of ‎text that says ''‎ور 北中度 ك Quando a terra acaba, o preço muda de lógica: imóveis de luxo em São Paulo já valoriza até 10x acima da média. |NEWS datastore‎''‎." [ref=e289]'
+            - link "Esses itens são óbvios para nós, da maior empresa de pesquisa de demanda imobiliária da america latina, mas que pode não ser para você. Assista e confira! Clipe" [ref=e292] [cursor=pointer]:
+              - /url: /mundodatastore/reel/DW1d6phgCOT/
+              - img "Esses itens são óbvios para nós, da maior empresa de pesquisa de demanda imobiliária da america latina, mas que pode não ser para você. Assista e confira!" [ref=e295]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e297]:
+          - link "Ver mais posts" [ref=e299] [cursor=pointer]:
+            - /url: /mundodatastore/
+            - generic [ref=e300]: Ver mais posts
+          - separator [ref=e301]
+  - contentinfo [ref=e302]:
+    - generic [ref=e303]:
+      - generic [ref=e305]:
+        - link "Meta" [ref=e307] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e308]: Meta
+        - link "Sobre" [ref=e310] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e311]: Sobre
+        - link "Blog" [ref=e313] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e314]: Blog
+        - link "Carreiras" [ref=e316] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e317]: Carreiras
+        - link "Ajuda" [ref=e319] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e320]: Ajuda
+        - link "API" [ref=e322] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e323]: API
+        - link "Privacidade" [ref=e325] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e326]: Privacidade
+        - link "Termos" [ref=e328] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e329]: Termos
+        - link "Localizações" [ref=e331] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e332]: Localizações
+        - link "Instagram Lite" [ref=e334] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e335]: Instagram Lite
+        - link "Meta AI" [ref=e337] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e338]: Meta AI
+        - link "Threads" [ref=e340] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e341]: Threads
+        - link "Upload de contatos e não usuários" [ref=e343] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e344]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e346] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e347]: Meta Verified
+      - generic [ref=e348]:
+        - generic [ref=e349] [cursor=pointer]:
+          - generic [ref=e350]:
+            - generic [ref=e351]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e354]
+          - combobox "Trocar idioma de exibição" [ref=e356]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e358]: © 2026 Instagram from Meta

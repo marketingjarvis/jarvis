@@ -1,0 +1,76 @@
+squad_code: "conteudo-investidores"
+purpose: "Produzir conteúdo para Instagram focado em investidores imobiliários para a Jarvis Inteligência Imobiliária"
+domain: "content"
+
+company:
+  name: "Jarvis Inteligência Imobiliária"
+  tone: "Profissional e consultivo, orientado a resultados e inteligência de mercado"
+  products: "Compra, venda e locação de imóveis; consultoria e inteligência imobiliária em Maceió/AL"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Investidores imobiliários em Maceió, Alagoas"
+  platforms: "Instagram"
+  tone: "Profissional e consultivo + Educativo e acessível + Direto e provocativo"
+
+tools_needed:
+  - "template-designer"
+  - "image-creator"
+  - "instagram-publisher"
+
+investigation:
+  enabled: true
+  profiles:
+    # @mundodatastore — estilo de escrita, carrossel, tipografia
+    - url: "https://www.instagram.com/p/DWpS_vjAUSP/?igsh=MXIzc2NxbmswZHlmNA=="
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "mundodatastore"
+      focus: "estilo de escrita, carrossel, tipografia"
+    - url: "https://www.instagram.com/p/DTgbko7APGV/?igsh=cG5keDV1NzRqc3g5"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "mundodatastore"
+      focus: "estilo de escrita, carrossel, tipografia"
+    - url: "https://www.instagram.com/p/DVjqp3kAFpf/?igsh=MWdsYW9vbHNmamRnNA=="
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "mundodatastore"
+      focus: "estilo de escrita, carrossel, tipografia"
+    # @xpinvestimentos — estética
+    - url: "https://www.instagram.com/p/DWkGF_RATum/?img_index=1"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "xpinvestimentos"
+      focus: "estética visual"
+    - url: "https://www.instagram.com/p/DWkGZu0ATiq/?img_index=1"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "xpinvestimentos"
+      focus: "estética visual"
+    # post educativo sobre praias/lugares
+    - url: "https://www.instagram.com/p/DSYEo-vEVQH/?igsh=eXUwdHU4Y3p6aTFy"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "unknown"
+      focus: "conteúdo educativo sobre lugares/praias"
+    # @h1editora — referência visual, tipografia, design, storytelling
+    - url: "https://www.instagram.com/p/DTqAJggD97X/?img_index=1"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "h1editora"
+      focus: "referência visual, tipografia, design, storytelling"
+    - url: "https://www.instagram.com/p/DTF9C28Ef3p/?img_index=1"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "h1editora"
+      focus: "referência visual, tipografia, design, storytelling"
+    - url: "https://www.instagram.com/p/DWmuOVbEZCD/?img_index=1"
+      platform: "instagram"
+      investigation_mode: "single_post"
+      profile: "h1editora"
+      focus: "referência visual, tipografia, design, storytelling"
+
+target_formats:
+  - "instagram-feed"

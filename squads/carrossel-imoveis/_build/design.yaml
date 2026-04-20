@@ -1,0 +1,155 @@
+squad:
+  code: "carrossel-imoveis"
+  name: "Máquina de Carrosséis Imobiliários"
+  description: "Squad que pesquisa tendências do mercado imobiliário, cria copy com aprovação do usuário e gera carrosséis virais em HTML para o Instagram da Jarvis Imóveis."
+
+agents:
+  - id: "squads/carrossel-imoveis/agents/tiago-tendencias"
+    name: "Tiago Tendências"
+    title: "Pesquisador de Mercado Imobiliário"
+    icon: "🔍"
+    execution: "subagent"
+    role_summary: "Pesquisa 5 tendências ou notícias do mercado imobiliário (Maceió, Nordeste, Brasil) com dados verificados e fontes nomeadas. Entrega um relatório estruturado pronto para o criador transformar em carrossel."
+    skills: ["web_search", "web_fetch"]
+    tasks:
+      - name: "find-and-rank-trends"
+        file: "tasks/find-and-rank-trends.md"
+        description: "Busca e classifica as 5 melhores tendências do mercado imobiliário para desenvolver em carrossel"
+
+  - id: "squads/carrossel-imoveis/agents/carlos-carrossel"
+    name: "Carlos Carrossel"
+    title: "Estrategista e Criador de Carrosséis"
+    icon: "✍️"
+    execution: "inline"
+    role_summary: "Transforma a tendência selecionada em carrossel viral: gera 5 ângulos distintos, escreve copy profunda em 7 slides e gera o HTML final com a identidade visual da Jarvis Imóveis usando a skill carrossel-infinito."
+    skills: ["carrossel-infinito", "web_search"]
+    tasks:
+      - name: "generate-angles"
+        file: "tasks/generate-angles.md"
+        description: "Gera 5 ângulos emocionalmente distintos para a tendência selecionada"
+      - name: "create-copy"
+        file: "tasks/create-copy.md"
+        description: "Escreve a copy completa dos 7 slides do carrossel"
+      - name: "create-html"
+        file: "tasks/create-html.md"
+        description: "Gera o HTML final do carrossel com identidade visual Jarvis"
+
+  - id: "squads/carrossel-imoveis/agents/vera-veredito"
+    name: "Vera Veredito"
+    title: "Revisora de Qualidade de Conteúdo"
+    icon: "✅"
+    execution: "inline"
+    role_summary: "Avalia o carrossel gerado contra 12 critérios de qualidade editorial e visual. Emite veredicto APROVADO/REJEITADO com feedback específico e acionável."
+    skills: []
+    tasks:
+      - name: "review"
+        file: "tasks/review.md"
+        description: "Avalia qualidade do carrossel e emite veredicto estruturado"
+
+pipeline:
+  - step: 1
+    name: "research-focus-checkpoint"
+    type: "checkpoint"
+    output_file: "squads/carrossel-imoveis/output/research-focus.md"
+
+  - step: 2
+    name: "pesquisa-tendencias"
+    type: "agent"
+    agent: "squads/carrossel-imoveis/agents/tiago-tendencias"
+    execution: "subagent"
+    input_file: "squads/carrossel-imoveis/output/research-focus.md"
+    output_file: "squads/carrossel-imoveis/output/research-report.md"
+    model_tier: "powerful"
+
+  - step: 3
+    name: "selecao-noticia-checkpoint"
+    type: "checkpoint"
+
+  - step: 4
+    name: "generate-angles"
+    type: "agent"
+    agent: "squads/carrossel-imoveis/agents/carlos-carrossel"
+    execution: "inline"
+    input_file: "squads/carrossel-imoveis/output/research-report.md"
+    output_file: "squads/carrossel-imoveis/output/angles.md"
+    format: "instagram-feed"
+
+  - step: 5
+    name: "selecao-angulo-checkpoint"
+    type: "checkpoint"
+
+  - step: 6
+    name: "create-copy"
+    type: "agent"
+    agent: "squads/carrossel-imoveis/agents/carlos-carrossel"
+    execution: "inline"
+    input_file: "squads/carrossel-imoveis/output/angles.md"
+    output_file: "squads/carrossel-imoveis/output/carousel-copy.md"
+    format: "instagram-feed"
+
+  - step: 7
+    name: "aprovacao-copy-checkpoint"
+    type: "checkpoint"
+
+  - step: 8
+    name: "create-html"
+    type: "agent"
+    agent: "squads/carrossel-imoveis/agents/carlos-carrossel"
+    execution: "inline"
+    input_file: "squads/carrossel-imoveis/output/carousel-copy.md"
+    output_file: "squads/carrossel-imoveis/output/carousel.html"
+
+  - step: 9
+    name: "review"
+    type: "agent"
+    agent: "squads/carrossel-imoveis/agents/vera-veredito"
+    execution: "inline"
+    input_file: "squads/carrossel-imoveis/output/carousel.html"
+    output_file: "squads/carrossel-imoveis/output/review.md"
+    on_reject: 6
+
+  - step: 10
+    name: "aprovacao-final-checkpoint"
+    type: "checkpoint"
+
+investigation:
+  enriched: true
+  profiles_analyzed: 1
+  date: "2026-04-15"
+  dir: "squads/carrossel-imoveis/_investigations"
+
+research_brief: |
+  MERCADO IMOBILIÁRIO - MACEIÓ/AL 2026
+
+  Dados principais:
+  - Maceió cresceu 21% em vendas de imóveis verticais em 2025 (VGV: R$3,7 bi)
+  - Metro quadrado atual: R$13.260 (valorização de 10,5% em 12 meses)
+  - Crescimento acumulado: 122% — cidade mais quente do NE
+  - Estoque caiu 24% — demanda maior que oferta = pressão positiva nos preços
+  - Nordeste lidera intenção de compra em 2026 (Brain Consultoria)
+  - Potencial de valorização: 8-18% ao ano por bairro
+
+  Referência investigada: @mundodatastore (Datastore) — autoridade em dados imobiliários
+  Padrões identificados: hook com dado numérico, tom jornalístico, fonte nomeada em todo slide,
+  keyword CTA no último slide, vocabulário técnico-acessível (demanda, tipologia, VGV).
+
+  Formatos de carrossel de maior performance: Editorial/Tese (análise de mercado),
+  Mito vs Realidade (quebra de senso comum), Problema→Solução (orientação do comprador).
+
+  Fontes prioritárias: Imobi Report, SECOVI-AL, Brain Consultoria, FipeZAP, CBIC,
+  movimentoeconomico.com.br, apartamentoavendaemmaceio.com
+
+skills_installed:
+  - "web_search"
+  - "web_fetch"
+  - "carrossel-infinito"
+
+formats_selected:
+  - "instagram-feed"
+
+best_practices_consulted:
+  - "researching.md"
+  - "copywriting.md"
+  - "instagram-feed.md"
+  - "image-design.md"
+  - "review.md"

@@ -1,0 +1,89 @@
+id: "carrossel-imoveis-pipeline"
+name: "Pipeline de Carrosséis Imobiliários"
+version: "1.0"
+squad: "carrossel-imoveis"
+
+description: >
+  Pipeline completo para produção de carrosséis virais para Instagram do mercado
+  imobiliário de Maceió. Da pesquisa de tendências ao HTML final, com checkpoints
+  de aprovação do usuário em cada etapa crítica.
+
+steps:
+  - id: step-01
+    file: steps/step-01-research-focus.md
+    type: checkpoint
+    agent: null
+    description: "Definir foco e período da pesquisa"
+
+  - id: step-02
+    file: steps/step-02-pesquisa-tendencias.md
+    type: execution
+    agent: tiago-tendencias
+    description: "Pesquisar e ranquear 5 tendências do mercado"
+
+  - id: step-03
+    file: steps/step-03-selecao-noticia.md
+    type: checkpoint
+    agent: null
+    description: "Usuário seleciona a tendência para o carrossel"
+
+  - id: step-04
+    file: steps/step-04-generate-angles.md
+    type: execution
+    agent: carlos-carrossel
+    description: "Gerar 5 ângulos emocionais para a tendência escolhida"
+
+  - id: step-05
+    file: steps/step-05-selecao-angulo.md
+    type: checkpoint
+    agent: null
+    description: "Usuário seleciona o ângulo do carrossel"
+
+  - id: step-06
+    file: steps/step-06-create-copy.md
+    type: execution
+    agent: carlos-carrossel
+    description: "Escrever copy completa dos 7 slides + legenda"
+
+  - id: step-07
+    file: steps/step-07-aprovacao-copy.md
+    type: checkpoint
+    agent: null
+    description: "Usuário aprova ou solicita ajustes na copy"
+
+  - id: step-08
+    file: steps/step-08-create-html.md
+    type: execution
+    agent: carlos-carrossel
+    description: "Gerar HTML completo do carrossel com identidade Jarvis"
+
+  - id: step-09
+    file: steps/step-09-review.md
+    type: execution
+    agent: vera-veredito
+    description: "Revisão editorial do carrossel gerado"
+
+  - id: step-10
+    file: steps/step-10-aprovacao-final.md
+    type: checkpoint
+    agent: null
+    description: "Aprovação final e entrega do carrossel"
+
+checkpoints:
+  - step-01
+  - step-03
+  - step-05
+  - step-07
+  - step-10
+
+outputs:
+  - path: "output/research-report.md"
+    created_at: "step-02"
+  - path: "output/angles.md"
+    created_at: "step-04"
+  - path: "output/carousel-copy.md"
+    created_at: "step-06"
+  - path: "output/carousel.html"
+    created_at: "step-08"
+  - path: "output/review-report.md"
+    created_at: "step-09"

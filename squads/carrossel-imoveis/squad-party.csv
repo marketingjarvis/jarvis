@@ -1,0 +1,4 @@
+id,name,title,icon,execution,steps,file
+tiago-tendencias,Tiago Tendências,Pesquisador de Mercado Imobiliário,🔍,subagent,"2",agents/tiago-tendencias.agent.md
+carlos-carrossel,Carlos Carrossel,Estrategista e Criador de Carrosséis Imobiliários,✍️,inline,"4,6,8",agents/carlos-carrossel.agent.md
+vera-veredito,Vera Veredito,Revisora Editorial de Carrosséis Imobiliários,✅,inline,"9",agents/vera-veredito.agent.md
